@@ -64,7 +64,10 @@ fi
 
 PY="python"
 echo "Installing deps into active env..."
-pip install -q -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu121
+# torch / torchvision must come from the cu121 index (--index-url forces it,
+# --extra-index-url is ignored when pypi has a newer build).
+pip install -q --index-url https://download.pytorch.org/whl/cu121 torch==2.5.1 torchvision==0.20.1
+pip install -q -r requirements.txt
 
 # Avoid OpenMP duplicate-runtime crash if it shows up.
 export KMP_DUPLICATE_LIB_OK=TRUE
