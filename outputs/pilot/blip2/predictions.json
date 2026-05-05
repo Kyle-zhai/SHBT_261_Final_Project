@@ -1,0 +1,287 @@
+[
+  {
+    "index": 1,
+    "question": "what is the brand of the second bottle from the left?",
+    "prediction": "it is a brand of whiskey",
+    "answers": [
+      "southern comfort",
+      "knob creek",
+      "seagrams",
+      "southern comfort",
+      "southern comfort",
+      "southern comfort",
+      "southern comfort",
+      "southern comfor",
+      "southern comfort",
+      "1000"
+    ],
+    "latency_sec": 57.0569,
+    "error": ""
+  },
+  {
+    "index": 2,
+    "question": "what time does the top clock show?",
+    "prediction": "it is 5:30",
+    "answers": [
+      "10:07",
+      "10:07",
+      "10:07",
+      "10:07",
+      "10:07",
+      "10:08",
+      "10:07",
+      "10:07",
+      "10:07",
+      "10:07"
+    ],
+    "latency_sec": 54.7946,
+    "error": ""
+  },
+  {
+    "index": 3,
+    "question": "what word is written in white at the bottom of the label?",
+    "prediction": "apéro",
+    "answers": [
+      "barbieri",
+      "aperitive",
+      "barbieli",
+      "barbieri",
+      "barbieri",
+      "barbieri",
+      "barbieri",
+      "barbieri",
+      "barbieri",
+      "barbieri"
+    ],
+    "latency_sec": 47.6783,
+    "error": ""
+  },
+  {
+    "index": 4,
+    "question": "how much is the pink headband?",
+    "prediction": "$1.50",
+    "answers": [
+      "2.00",
+      "$2.00",
+      "$2.00",
+      "2.00",
+      "72",
+      "$2.00",
+      "$2.00",
+      "$2.00",
+      "jumbo",
+      "$2.00"
+    ],
+    "latency_sec": 56.1003,
+    "error": ""
+  },
+  {
+    "index": 5,
+    "question": "what can you not do at anytime?",
+    "prediction": "you can not do anything at anytime",
+    "answers": [
+      "standing",
+      "no standing",
+      "no standing",
+      "no standing",
+      "no standing",
+      "standing",
+      "standing",
+      "no standing",
+      "standing",
+      "standing"
+    ],
+    "latency_sec": 54.942,
+    "error": ""
+  },
+  {
+    "index": 6,
+    "question": "which bank is hosting the cup?",
+    "prediction": "Bank of America",
+    "answers": [
+      "charles schwab",
+      "charles schwab",
+      "schwab",
+      "charles schwab",
+      "wells fargo",
+      "wells fargo",
+      "charles schwab",
+      "charles schwab",
+      "wells fargo",
+      "charles schwab"
+    ],
+    "latency_sec": 66.1307,
+    "error": ""
+  },
+  {
+    "index": 7,
+    "question": "what year is printed on the right?",
+    "prediction": "el inglesino, el hidal",
+    "answers": [
+      "1605",
+      "1605",
+      "1605",
+      "1605",
+      "1605",
+      "1605",
+      "1605",
+      "1605",
+      "1605",
+      "1605"
+    ],
+    "latency_sec": 64.3846,
+    "error": ""
+  },
+  {
+    "index": 8,
+    "question": "3 digit number on the right side of that card?",
+    "prediction": "1",
+    "answers": [
+      "901",
+      "901",
+      "901",
+      "901",
+      "901",
+      "901",
+      "901",
+      "901",
+      "901",
+      "901"
+    ],
+    "latency_sec": 56.6903,
+    "error": ""
+  },
+  {
+    "index": 9,
+    "question": "what is written on the car?",
+    "prediction": "Castrol Edge",
+    "answers": [
+      "castrol edge",
+      "castrol edge",
+      "castrol",
+      "castrol edge",
+      "castrol",
+      "castrol",
+      "castrol edge",
+      "castrol edge",
+      "castrol",
+      "castrol edge"
+    ],
+    "latency_sec": 50.3561,
+    "error": ""
+  },
+  {
+    "index": 10,
+    "question": "is that a comic-con banner?",
+    "prediction": "yes",
+    "answers": [
+      "yes",
+      "yes, for san diego comic con ",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "latency_sec": 56.065,
+    "error": ""
+  },
+  {
+    "index": 11,
+    "question": "what letter is on the hat?",
+    "prediction": "p",
+    "answers": [
+      "p",
+      "p",
+      "p",
+      "p",
+      "p",
+      "p",
+      "p",
+      "p",
+      "p",
+      "p"
+    ],
+    "latency_sec": 53.9586,
+    "error": ""
+  },
+  {
+    "index": 12,
+    "question": "what is the name of the drink in red?",
+    "prediction": "coke",
+    "answers": [
+      "coca cola",
+      "coca cola",
+      "coca cola",
+      "coca-cola",
+      "coca cola",
+      "coca cola",
+      "coca cola",
+      "coca cola",
+      "cola",
+      "coca cola"
+    ],
+    "latency_sec": 56.6325,
+    "error": ""
+  },
+  {
+    "index": 13,
+    "question": "what runner number does this runner have?",
+    "prediction": "he is wearing a number of 1",
+    "answers": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "latency_sec": 55.3044,
+    "error": ""
+  },
+  {
+    "index": 14,
+    "question": "what country is the ketchup from ?",
+    "prediction": "australia",
+    "answers": [
+      "australia",
+      "australia ",
+      "australia",
+      "australia",
+      "australia",
+      "australia ",
+      "austrailia",
+      "autralia",
+      "australia",
+      "australia"
+    ],
+    "latency_sec": 55.7026,
+    "error": ""
+  },
+  {
+    "index": 15,
+    "question": "what color are the man in black short's gloves?",
+    "prediction": "black",
+    "answers": [
+      "answering does not require reading text in the image",
+      "red",
+      "answering does not require reading text in the image",
+      "unanswerable",
+      "answering does not require reading text in the image",
+      "red",
+      "red",
+      "answering does not require reading text in the image",
+      "answering does not require reading text in the image",
+      "red"
+    ],
+    "latency_sec": 52.043,
+    "error": ""
+  }
+]

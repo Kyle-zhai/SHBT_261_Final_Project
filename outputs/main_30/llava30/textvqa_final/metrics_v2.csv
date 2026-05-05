@@ -1,0 +1,2 @@
+accuracy,vqa_soft_accuracy,substring_match,char_similarity,token_f1,token_precision,token_recall,bleu,meteor,rouge_l,llm_judge
+0.4333,0.4111,0.5333,0.6756,0.52,0.5222,0.5222,0.7217,0.3284,0.52,0.7231

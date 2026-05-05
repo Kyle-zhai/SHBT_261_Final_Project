@@ -1,0 +1,34 @@
+[
+  {
+    "model": "llava15",
+    "prompt": "constrained",
+    "accuracy": 0.4333,
+    "num_samples": 30,
+    "total_time_sec": 12195.6775,
+    "avg_time_sec": 406.5226
+  },
+  {
+    "model": "llava15",
+    "prompt": "ocr_exact",
+    "accuracy": 0.4333,
+    "num_samples": 30,
+    "total_time_sec": 13098.5673,
+    "avg_time_sec": 436.6189
+  },
+  {
+    "model": "llava15",
+    "prompt": "key_focus",
+    "accuracy": 0.4333,
+    "num_samples": 30,
+    "total_time_sec": 13071.4003,
+    "avg_time_sec": 435.7133
+  },
+  {
+    "model": "llava15",
+    "prompt": "textvqa_final",
+    "accuracy": 0.4333,
+    "num_samples": 30,
+    "total_time_sec": 12906.3382,
+    "avg_time_sec": 430.2113
+  }
+]

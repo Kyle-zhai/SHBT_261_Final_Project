@@ -1,0 +1,2 @@
+accuracy,substring_match,token_f1,token_precision,token_recall,bleu,meteor,rouge_l
+0.4333,0.5333,0.5211,0.55,0.5056,0.7035,0.3078,0.5211

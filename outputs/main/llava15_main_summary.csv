@@ -1,0 +1,6 @@
+model,prompt,accuracy,num_samples,total_time_sec,avg_time_sec
+llava15,constrained,0.4667,15,5972.1175,398.1412
+llava15,ocr_exact,0.4667,15,6050.3183,403.3546
+llava15,key_focus,0.4667,15,6136.4045,409.0936
+llava15,textvqa_final,0.4667,15,8662.0771,577.4718
+llava15,minimal_answer,0.4,15,5510.8014,367.3868

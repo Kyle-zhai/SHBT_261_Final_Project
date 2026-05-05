@@ -1,0 +1,10 @@
+{
+  "accuracy": 0.1333,
+  "substring_match": 0.3333,
+  "token_f1": 0.1905,
+  "token_precision": 0.1667,
+  "token_recall": 0.3333,
+  "bleu": 0.3976,
+  "meteor": 0.1333,
+  "rouge_l": 0.1905
+}

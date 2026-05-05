@@ -1,0 +1,12 @@
+torch>=2.1.0
+torchvision
+transformers>=4.49.0
+datasets>=2.17
+accelerate
+Pillow>=10.0
+tqdm
+nltk
+rouge-score
+sentence-transformers<3.0
+qwen-vl-utils
+numpy

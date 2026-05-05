@@ -1,0 +1,4 @@
+model,accuracy,num_samples,total_time_sec,avg_time_sec
+blip2,0.2667,15,837.8945,55.8596
+qwen,0.2,15,994.6727,66.3115
+llava15,0.4,15,5791.3399,386.0893
