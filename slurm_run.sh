@@ -54,21 +54,17 @@ echo "============================================"
 
 cd "${SLURM_SUBMIT_DIR:-$(pwd)}"
 
-# Use uv-managed env if available (matches Oscar template); fall back to plain
-# python in the active env.
-if [ -f "$HOME/.local/bin/env" ]; then
-    source "$HOME/.local/bin/env"
+# Activate the project-local venv (created with `python -m venv .venv` or
+# `uv venv`). We use plain python instead of `uv run` because Oscar may have a
+# parent pyproject (e.g. from another course) that uv prefers over our venv.
+if [ -d ".venv" ]; then
+    # shellcheck source=/dev/null
+    source .venv/bin/activate
 fi
 
-if command -v uv >/dev/null 2>&1; then
-    PY="uv run python"
-    echo "Installing deps via uv pip..."
-    uv pip install --system -q -r requirements.txt || uv pip install -q -r requirements.txt
-else
-    PY="python"
-    echo "uv not found, using plain python..."
-    pip install -q -r requirements.txt
-fi
+PY="python"
+echo "Installing deps into active env..."
+pip install -q -r requirements.txt
 
 # Avoid OpenMP duplicate-runtime crash if it shows up.
 export KMP_DUPLICATE_LIB_OK=TRUE
