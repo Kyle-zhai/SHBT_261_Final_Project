@@ -64,7 +64,7 @@ fi
 
 PY="python"
 echo "Installing deps into active env..."
-pip install -q -r requirements.txt
+pip install -q -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu121
 
 # Avoid OpenMP duplicate-runtime crash if it shows up.
 export KMP_DUPLICATE_LIB_OK=TRUE
