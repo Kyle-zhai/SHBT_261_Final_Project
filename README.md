@@ -1,5 +1,7 @@
 # TextVQA Prompt Engineering Project
 
+> **Final report**: see [`REPORT.md`](REPORT.md) for the full write-up with figures, tables, and references.
+
 ## Overview
 
 This project evaluates the performance of pretrained vision-language models on the TextVQA task in a zero-shot setting. We focus on prompt engineering to improve model performance without fine-tuning.
@@ -9,6 +11,13 @@ The main goal is to understand:
 * How different prompt designs affect performance
 * Whether reasoning-style prompts help or hurt
 * What types of errors dominate in TextVQA
+
+**Headline numbers** (LLaVA-1.5-7B, validation, n=200):
+
+* Best prompt: `constrained` — accuracy **0.500**, VQA-soft **0.450**, LLM-Judge **0.758**
+* Best baseline: `baseline` — accuracy 0.490, LLM-Judge **0.768** (highest)
+* Worst prompt: `cot` — accuracy 0.455 (chain-of-thought hurts short-answer tasks)
+* All 10 prompts within a 5-point band → bottleneck is the visual encoder, not the prompt
 
 ---
 
