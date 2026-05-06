@@ -1,2 +1,2 @@
-accuracy,substring_match,token_f1,token_precision,token_recall,bleu,meteor,rouge_l
-0.2667,0.4,0.2833,0.2762,0.3333,0.4641,0.1833,0.2833
+accuracy,vqa_soft_accuracy,substring_match,char_similarity,token_f1,token_precision,token_recall,bleu,meteor,rouge_l,llm_judge
+0.22,0.1967,0.39,0.4654,0.3163,0.3013,0.3618,0.4664,0.2318,0.332,0.5499

@@ -1,0 +1,13 @@
+{
+  "accuracy": 0.49,
+  "vqa_soft_accuracy": 0.45,
+  "substring_match": 0.645,
+  "char_similarity": 0.7259,
+  "token_f1": 0.5513,
+  "token_precision": 0.5679,
+  "token_recall": 0.5524,
+  "bleu": 0.7045,
+  "meteor": 0.343,
+  "rouge_l": 0.5552,
+  "llm_judge": 0.7627
+}

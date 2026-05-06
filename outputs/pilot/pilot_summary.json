@@ -1,23 +1,23 @@
 [
   {
     "model": "blip2",
-    "accuracy": 0.2667,
-    "num_samples": 15,
-    "total_time_sec": 837.8945,
-    "avg_time_sec": 55.8596
+    "accuracy": 0.22,
+    "num_samples": 100,
+    "total_time_sec": 12.4343,
+    "avg_time_sec": 0.1243
   },
   {
     "model": "qwen",
-    "accuracy": 0.2,
-    "num_samples": 15,
-    "total_time_sec": 994.6727,
-    "avg_time_sec": 66.3115
+    "accuracy": 0.28,
+    "num_samples": 100,
+    "total_time_sec": 45.3557,
+    "avg_time_sec": 0.4536
   },
   {
     "model": "llava15",
-    "accuracy": 0.4,
-    "num_samples": 15,
-    "total_time_sec": 5791.3399,
-    "avg_time_sec": 386.0893
+    "accuracy": 0.42,
+    "num_samples": 100,
+    "total_time_sec": 27.0126,
+    "avg_time_sec": 0.2701
   }
 ]

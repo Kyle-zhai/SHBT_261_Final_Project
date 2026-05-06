@@ -1,10 +1,13 @@
 {
-  "accuracy": 0.2,
-  "substring_match": 0.4667,
-  "token_f1": 0.2981,
-  "token_precision": 0.2679,
-  "token_recall": 0.4481,
-  "bleu": 0.4112,
-  "meteor": 0.2738,
-  "rouge_l": 0.2902
+  "accuracy": 0.28,
+  "vqa_soft_accuracy": 0.2767,
+  "substring_match": 0.71,
+  "char_similarity": 0.5078,
+  "token_f1": 0.4179,
+  "token_precision": 0.3727,
+  "token_recall": 0.6706,
+  "bleu": 0.4566,
+  "meteor": 0.3767,
+  "rouge_l": 0.4179,
+  "llm_judge": 0.6411
 }

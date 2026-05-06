@@ -1,0 +1,83 @@
+[
+  {
+    "category": "brand",
+    "count": 21,
+    "accuracy": 0.7619,
+    "vqa_soft": 0.6984,
+    "substring": 0.8571,
+    "char_sim": 0.9011,
+    "llm_judge": 0.8828
+  },
+  {
+    "category": "color",
+    "count": 2,
+    "accuracy": 1.0,
+    "vqa_soft": 1.0,
+    "substring": 1.0,
+    "char_sim": 1.0,
+    "llm_judge": 1.0
+  },
+  {
+    "category": "date_year",
+    "count": 6,
+    "accuracy": 0.5,
+    "vqa_soft": 0.5,
+    "substring": 0.5,
+    "char_sim": 0.875,
+    "llm_judge": 0.7481
+  },
+  {
+    "category": "number",
+    "count": 27,
+    "accuracy": 0.4444,
+    "vqa_soft": 0.3951,
+    "substring": 0.5926,
+    "char_sim": 0.6448,
+    "llm_judge": 0.7815
+  },
+  {
+    "category": "other",
+    "count": 86,
+    "accuracy": 0.4419,
+    "vqa_soft": 0.407,
+    "substring": 0.6395,
+    "char_sim": 0.6793,
+    "llm_judge": 0.72
+  },
+  {
+    "category": "price",
+    "count": 4,
+    "accuracy": 0.25,
+    "vqa_soft": 0.25,
+    "substring": 0.25,
+    "char_sim": 0.6706,
+    "llm_judge": 0.772
+  },
+  {
+    "category": "text_read",
+    "count": 38,
+    "accuracy": 0.3947,
+    "vqa_soft": 0.3421,
+    "substring": 0.6316,
+    "char_sim": 0.6446,
+    "llm_judge": 0.6887
+  },
+  {
+    "category": "time",
+    "count": 8,
+    "accuracy": 0.125,
+    "vqa_soft": 0.125,
+    "substring": 0.25,
+    "char_sim": 0.6314,
+    "llm_judge": 0.656
+  },
+  {
+    "category": "yes_no",
+    "count": 8,
+    "accuracy": 1.0,
+    "vqa_soft": 1.0,
+    "substring": 1.0,
+    "char_sim": 1.0,
+    "llm_judge": 1.0
+  }
+]
