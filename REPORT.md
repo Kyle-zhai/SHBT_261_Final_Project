@@ -26,8 +26,8 @@ Several lines of work shape the design space we operate in:
 
 ### 1.3 Contributions
 
-1. We benchmark three open-source VLMs (BLIP-2, Qwen2.5-VL-3B, LLaVA-1.5-7B) zero-shot on TextVQA validation and identify LLaVA-1.5 as the strongest of the three on a 100-sample pilot.
-2. We design and evaluate **ten** prompt variants on a 200-sample subset of validation, including two new optimized prompts (`verbatim_ocr`, `few_shot`) motivated by an error analysis of an earlier 30-sample CPU run.
+1. We benchmark three open-source VLMs (BLIP-2, Qwen2.5-VL-3B, LLaVA-1.5-7B) zero-shot on TextVQA validation and identify LLaVA-1.5 as the strongest of the three on a 200-sample pilot.
+2. We design and evaluate **ten** prompt variants on a 1000-sample subset of validation, including two new optimized prompts (`verbatim_ocr`, `few_shot`) motivated by an error analysis of an earlier 30-sample CPU run.
 3. We report the full required metric suite — exact accuracy, the official **VQA-soft** accuracy, BLEU, METEOR, ROUGE-L, plus optional substring-match, character-similarity, token F1/precision/recall, and **LLM-as-a-Judge** semantic similarity using sentence-transformer embeddings.
 4. We provide a **per-question-category** breakdown across nine semantic categories (yes/no, color, brand, number, time, price, …) that pinpoints exactly where the bottleneck lies.
 5. All code, prompts, raw predictions, and metrics are released in a public GitHub repository with a SLURM script so that the experiments are fully reproducible on Brown's Oscar cluster.
@@ -45,8 +45,8 @@ Several lines of work shape the design space we operate in:
 
 We use the official **TextVQA** dataset hosted on Hugging Face (`lmms-lab/textvqa`). The dataset provides 34.6k / 5k / 5.7k question–image pairs for train / validation / test, with each validation question annotated by ten human answers. Because we evaluate zero-shot, we report results on the validation split:
 
-* **Pilot** (model selection): 100 random validation samples, seed 42.
-* **Main** (prompt comparison): 200 random validation samples, seed 42 (the same indices are used for every prompt to make scores directly comparable).
+* **Pilot** (model selection): 200 random validation samples, seed 42.
+* **Main** (prompt comparison): 1000 random validation samples, seed 42 (the same 1000 indices are used for every prompt so all rankings are paired comparisons).
 
 Images are loaded as PIL objects in their native resolution and passed straight to each model's processor. No external OCR, no question rewriting.
 
@@ -116,15 +116,15 @@ The first stage answers a simple question: *which of the three open-source VLMs 
 
 ### 3.2 Main — Prompt Ablation (Stage 2)
 
-Once the model is chosen we perform a **single-variable ablation**: model = LLaVA-1.5, samples = 200, decoding = greedy, only the prompt changes. Each prompt is evaluated on the *same* 200 questions so paired comparisons are valid. We deliberately scaled up from the early 30-sample exploration because at n=30 the standard error on accuracy is roughly ±9 %, large enough to make any difference between two prompts statistically meaningless. At n=200 the standard error drops to ~3.5 %.
+Once the model is chosen we perform a **single-variable ablation**: model = LLaVA-1.5, samples = 1000, decoding = greedy, only the prompt changes. Each prompt is evaluated on the *same* 1000 questions so paired comparisons are valid. We deliberately scaled up from the early 30-sample exploration because at n=30 the standard error on accuracy is roughly ±9 %, large enough to make any difference between two prompts statistically meaningless. At n=200 it drops to ~3.5 %, and at **n=1000** it is **~1.6 %**, comfortably tight enough to distinguish prompts that differ by 3 absolute points or more.
 
 ### 3.3 Per-Category Breakdown (Stage 3)
 
-For every prompt we run `analyze_categories.py` to slice the 200 predictions across the nine categories. This is what makes the result section actionable: aggregate accuracy hides which question types the model fails on.
+For every prompt we run `analyze_categories.py` to slice the 1000 predictions across the nine categories. With 1000 samples the per-category counts are large enough (`other` n=471, `text_read` n=173, `number` n=113, `brand` n=113) that the breakdown is statistically meaningful, not just descriptive.
 
 ### 3.4 Splits
 
-We do not touch the test split because (a) TextVQA test answers are not publicly available and (b) the project brief explicitly accepts validation results. Train is unused because we do not fine-tune. The 200 validation samples are fixed by seed and shared by all 10 prompts, so any ranking we report is a true within-subject comparison.
+We do not touch the test split because (a) TextVQA test answers are not publicly available and (b) the project brief explicitly accepts validation results. Train is unused because we do not fine-tune. The 1000 validation samples are fixed by seed and shared by all 10 prompts, so any ranking we report is a true within-subject comparison.
 
 ---
 
@@ -138,9 +138,11 @@ LLaVA-1.5-7B clearly leads on TextVQA validation despite being only ~3× larger 
 
 | Model | Accuracy | Avg. inference time per Q (GPU) |
 |---|---|---|
-| BLIP-2 (2.7 B) | 0.22 | 0.12 s |
-| Qwen2.5-VL (3 B) | 0.28 | 0.45 s |
-| **LLaVA-1.5 (7 B)** | **0.42** | 0.27 s |
+| BLIP-2 (2.7 B) | 0.230 | 0.13 s |
+| Qwen2.5-VL (3 B) | 0.255 | 0.48 s |
+| **LLaVA-1.5 (7 B)** | **0.490** | 0.27 s |
+
+The LLaVA-1.5 lead over Qwen2.5-VL is **+23.5 absolute points**, far beyond the ~3.5 % standard error at n=200, so the model-selection decision is unambiguous.
 
 ### 4.2 Prompt Comparison
 
@@ -148,77 +150,78 @@ LLaVA-1.5-7B clearly leads on TextVQA validation despite being only ~3× larger 
 
 The full numbers (sorted by accuracy) are reported in Table 1.
 
-**Table 1.** Main experiment: 10 prompts × 200 samples on LLaVA-1.5-7B.
+**Table 1.** Main experiment: 10 prompts × 1000 samples on LLaVA-1.5-7B (sorted by accuracy).
 
 | Prompt | Acc | VQA-soft | Substring | Char-sim | F1 | BLEU | METEOR | ROUGE-L | LLM-Judge |
 |---|---|---|---|---|---|---|---|---|---|
-| **constrained** | **0.500** | **0.450** | 0.645 | 0.707 | 0.554 | 0.709 | 0.331 | 0.560 | 0.758 |
-| baseline | 0.490 | 0.442 | 0.640 | 0.725 | 0.564 | 0.707 | 0.352 | 0.569 | **0.768** |
-| key_focus | 0.490 | 0.450 | 0.645 | 0.726 | 0.551 | 0.704 | 0.343 | 0.555 | 0.763 |
-| ocr_short | 0.490 | 0.443 | 0.650 | 0.719 | 0.546 | 0.705 | 0.329 | 0.552 | 0.762 |
-| ocr_exact | 0.480 | 0.442 | 0.645 | 0.711 | 0.553 | 0.701 | 0.340 | 0.559 | 0.753 |
-| minimal_answer | 0.480 | 0.437 | 0.645 | 0.712 | 0.549 | 0.703 | 0.332 | 0.556 | 0.758 |
-| few_shot | 0.480 | 0.438 | 0.625 | 0.682 | 0.540 | 0.702 | 0.340 | 0.546 | 0.735 |
-| textvqa_final | 0.475 | 0.435 | **0.675** | 0.697 | 0.549 | 0.708 | 0.346 | 0.553 | 0.753 |
-| verbatim_ocr | 0.470 | 0.432 | 0.625 | 0.697 | 0.537 | 0.698 | 0.338 | 0.541 | 0.745 |
-| cot | 0.455 | 0.412 | 0.645 | 0.686 | 0.540 | 0.682 | 0.342 | 0.545 | 0.739 |
+| **ocr_short** | **0.547** | 0.507 | 0.674 | 0.736 | 0.582 | 0.737 | 0.351 | 0.587 | 0.795 |
+| **constrained** | **0.547** | **0.509** | 0.667 | 0.730 | 0.586 | 0.738 | 0.352 | 0.591 | 0.795 |
+| baseline | 0.546 | 0.511 | 0.672 | 0.745 | 0.589 | 0.737 | 0.359 | 0.592 | 0.792 |
+| key_focus | 0.546 | 0.510 | 0.671 | 0.741 | 0.589 | 0.738 | 0.354 | 0.594 | **0.796** |
+| minimal_answer | 0.546 | 0.510 | 0.669 | 0.738 | 0.587 | 0.738 | 0.354 | 0.591 | 0.793 |
+| ocr_exact | 0.543 | 0.505 | 0.678 | 0.737 | 0.582 | 0.736 | 0.353 | 0.586 | 0.794 |
+| textvqa_final | 0.539 | 0.501 | **0.682** | 0.731 | 0.580 | 0.736 | 0.350 | 0.585 | 0.790 |
+| few_shot | 0.527 | 0.490 | 0.669 | 0.717 | 0.572 | 0.726 | 0.347 | 0.578 | 0.776 |
+| cot | 0.522 | 0.483 | 0.673 | 0.713 | 0.567 | 0.728 | 0.349 | 0.571 | 0.780 |
+| verbatim_ocr | 0.504 | 0.469 | 0.652 | 0.703 | 0.557 | 0.715 | 0.343 | 0.561 | 0.770 |
 
 **Findings**:
 
-* **Best prompt is `constrained`** at 0.500 exact accuracy and 0.450 VQA-soft. It edges out `baseline` by a single absolute point.
-* **All ten prompts are within a ~5-point band (0.455 – 0.500).** This is the most important observation of the project: prompt engineering moves the needle, but not by much.
-* **`cot` is the only prompt that *hurts*** (-3.5 absolute points vs baseline). Asking the model to "think step by step" before producing a one-word answer encourages it to write a sentence, which then gets penalized by exact-match scoring. This matches recent findings that CoT helps for reasoning-heavy tasks but harms for short-answer tasks [8].
-* **The two new prompts (`verbatim_ocr`, `few_shot`) underperformed expectations.** They were designed to fix multi-word truncation and currency-symbol drop, but on the larger 200-sample set the improvement on those specific failure modes is offset by losses on short-answer questions where the longer instruction confuses the model.
-* **LLM-Judge (~0.77) is consistently ~28 points higher than exact accuracy (~0.49).** The model's predictions are usually semantically close to the right answer but fail strict spelling/format matching.
+* **The top five prompts are statistically tied** at 0.546–0.547 accuracy: `ocr_short`, `constrained`, `baseline`, `key_focus`, and `minimal_answer` are within 0.001 of each other on accuracy and within 0.004 on LLM-Judge. At n=1000 (SE ≈ 1.6 %) these are *indistinguishable*.
+* **The full spread across all ten prompts is only 4.3 absolute points (0.504 – 0.547).** This is the single most important observation of the project: with 1000 samples and a paired design, prompt engineering on a frozen LLaVA-1.5-7B produces almost no exploitable improvement.
+* **The two new "engineered" prompts (`verbatim_ocr`, `few_shot`) actually *underperform* the simple baseline** by 1.9 and 4.2 points respectively. The longer, more elaborate instructions appear to confuse the model on short-answer questions, and the in-context examples in `few_shot` bias the model toward the demonstrated formats even when they do not fit the question.
+* **`cot` is no longer the worst prompt** — at n=1000 it scores 0.522, only 2.4 points below baseline. The earlier 200-sample run had identified CoT as a clear loser (-3.5 pp); the larger sample shows the gap is real but smaller. The general lesson — *don't ask for chain-of-thought when you want a one-word answer* — still holds, but the magnitude is modest.
+* **LLM-Judge (~0.79) is consistently ~25 points higher than exact accuracy (~0.55).** The model's predictions are usually semantically close to the right answer but fail strict spelling/format matching (see §4.4).
 
 ### 4.3 Per-Category Breakdown
 
 ![Per-category breakdown](figures/report/fig3_categories.png)
 
-**Table 2.** Per-category accuracy for the best prompt (`constrained`).
+**Table 2.** Per-category accuracy for the best prompt (`constrained`, n=1000 main set).
 
 | Category | n | Accuracy | VQA-soft | Substring | LLM-Judge |
 |---|---|---|---|---|---|
-| **yes_no** | 8 | **1.00** | 1.00 | 1.00 | 1.00 |
-| **color** | 2 | **1.00** | 1.00 | 1.00 | 1.00 |
-| **brand** | 21 | **0.76** | 0.70 | 0.86 | 0.88 |
-| date_year | 6 | 0.50 | 0.50 | 0.50 | 0.75 |
-| other | 86 | 0.49 | 0.43 | 0.64 | 0.73 |
-| number | 27 | 0.44 | 0.40 | 0.59 | 0.78 |
-| text_read | 38 | 0.39 | 0.34 | 0.61 | 0.70 |
-| price | 4 | 0.25 | 0.25 | 0.50 | 0.71 |
-| **time** | 8 | **0.13** | 0.13 | 0.25 | 0.70 |
+| **yes_no** | 57 | **0.947** | 0.889 | 0.947 | 0.986 |
+| **color** | 7 | **0.857** | 0.857 | 0.857 | 0.952 |
+| **brand** | 113 | **0.655** | 0.611 | 0.735 | 0.816 |
+| number | 113 | 0.557 | 0.519 | 0.664 | 0.830 |
+| other | 471 | 0.531 | 0.490 | 0.667 | 0.782 |
+| date_year | 22 | 0.500 | 0.500 | 0.500 | 0.825 |
+| price | 17 | 0.471 | 0.431 | 0.647 | 0.774 |
+| text_read | 173 | 0.451 | 0.426 | 0.624 | 0.743 |
+| **time** | 27 | **0.111** | 0.086 | 0.185 | 0.673 |
 
-*(Source values: `outputs/main_oscar/llava15/constrained/category_breakdown.json`. The `time` row is 1/8 correct; we round 0.125 up to 0.13.)*
+*(Source: `outputs/main_oscar/llava15/constrained/category_breakdown.json`.)*
 
-The breakdown is striking:
+The breakdown is striking and now backed by reasonable category sample sizes (the smallest, `color`, is n=7; the bottleneck `time` is n=27):
 
-* **Categories that don't actually require OCR** (yes/no, color) score 100 %.
-* **Brand** is surprisingly strong (0.76) because brand names are usually large prominent text designed for legibility.
-* **Time, price, and text-read** are the bottlenecks. Reading a clock face requires sub-pixel precision; reading multi-word labels or signs requires character-level OCR robustness. These are exactly the failure modes that motivated TextVQA in the first place.
+* **Categories that do not actually require fine-grained OCR** (`yes_no` 0.95, `color` 0.86) are nearly solved.
+* **`brand` is the strongest OCR-required category (0.66)** because brand names are usually large prominent text designed for legibility.
+* **`time` is catastrophically bad (0.11)** — over 1000 samples we get only 3 of 27 clock-time questions correct. Reading a clock face requires sub-pixel precision that a CLIP ViT-L/14-336 backbone cannot supply.
+* **`text_read` (0.45) and `price` (0.47)** are the next-worst, exactly as TextVQA was designed to expose: dense in-image text and currency/unit symbols stress the OCR pipeline.
 
-The full prompt × category matrix in Figure 4 confirms that *no* prompt cures these weaknesses — the cold blue column on `time` is essentially the same height across all ten rows. (We caution that the per-category sample sizes for `color` (n=2), `price` (n=4), and `date_year` (n=6) are small; the per-category numbers should be read as descriptive, not statistically definitive.)
+The full prompt × category matrix in Figure 4 confirms that *no* prompt cures these weaknesses — the cold blue column on `time` is essentially the same height across all ten rows.
 
 ![Heatmap](figures/report/fig4_heatmap.png)
 
 ### 4.4 Failure Case Discussion
 
-We examined every wrong prediction on the 200-sample set with the `baseline` prompt. The dominant patterns are:
+We examined every wrong prediction on the 1000-sample set with the `baseline` prompt. The dominant patterns are:
 
 | Failure mode | Example (question → pred / truth) | Frequency |
 |---|---|---|
-| **Time misread** | "what time does the top clock show?" → `12:00` / `10:07` | ~75 % of `time` questions |
+| **Time misread** | "what time does the top clock show?" → `12:00` / `10:07` | ~89 % of `time` questions |
 | **One-letter OCR drift** | "what word is written…?" → `Barberi` / `barbieri` | common in `text_read` |
 | **Multi-word truncation** | "what is written on the car?" → `Edge` / `castrol edge` | ~30 % of multi-word answers |
 | **Wrong region selected** | "second bottle from the left" → `Glenfiddich` / `southern comfort` | counting + spatial errors |
-| **Currency / unit drop** | "how much is the headband?" → `100` / `$2.00` | most price questions |
+| **Currency / unit drop** | "how much is the headband?" → `100` / `$2.00` | majority of price questions |
 | **Hallucination on no-OCR Q** | "what can you not do at anytime?" → `Fly` / `standing` | rare but visible |
 
 Four canonical examples are kept as image panels in `figures/examples/`. These illustrate that the bottleneck is the **CLIP ViT-L/14-336 visual encoder**: at 336×336 input resolution, small in-image text becomes blurry and the language model is left to guess.
 
 ### 4.5 Comparison with Pilot Baselines
 
-Recall that the three pilot models scored 0.22 / 0.28 / 0.42 on the 100-sample pilot. The optimized prompt on LLaVA-1.5 brings 200-sample accuracy up to **0.50** — a +8-point absolute improvement over LLaVA's own zero-shot baseline (which was 0.42 on a smaller pilot, 0.49 on the 200-sample run). For comparison, the published TextVQA leaderboard reports zero-shot LLaVA-1.5-7B in the 0.38 – 0.46 range depending on prompt and decoding choices, so our 0.50 sits at the upper end of what is achievable without fine-tuning.
+Recall the three pilot models scored 0.230 / 0.255 / 0.490 on the 200-sample pilot. The best main-experiment prompts (`ocr_short` and `constrained`) push LLaVA-1.5's accuracy from **0.490 (pilot, n=200)** to **0.547 (main, n=1000)** — a +5.7 absolute-point lift. We attribute most of this lift to the 5× larger sample including more "easy" questions on average rather than to prompt engineering itself, since `baseline` on the same 1000 samples scores 0.546 — within 0.001 of the best engineered prompt. For comparison, the published TextVQA leaderboard places zero-shot LLaVA-1.5-7B in the **0.38 – 0.46 range** depending on prompt and decoding choices, so our 0.55 sits at or above the upper end of what is achievable without fine-tuning.
 
 ### 4.6 What We Did *Not* Try (Limitations)
 
@@ -230,11 +233,12 @@ Recall that the three pilot models scored 0.22 / 0.28 / 0.42 on the 100-sample p
 
 ## 5. Conclusion
 
-We performed a controlled, fully reproducible prompt-engineering study on the TextVQA benchmark. Three findings are worth carrying forward:
+We performed a controlled, fully reproducible prompt-engineering study on the TextVQA benchmark using a paired 1000-sample protocol. Four findings are worth carrying forward:
 
-1. **Within open-source 2-7 B VLMs, LLaVA-1.5 is the strongest TextVQA reader zero-shot.**
-2. **Prompt engineering yields a *small* gain (+1 absolute point over baseline at best, -3.5 at worst).** The most useful prompt-engineering rule we identified is *don't add chain-of-thought to a short-answer task*.
-3. **The ceiling is set by the visual encoder, not by the prompt.** Per-category analysis shows that questions which do not require fine OCR are answered at 100 %, while clock / price / multi-word reading sit at 13 % – 39 %. The next 10 absolute points require either a higher-resolution encoder or task-specific fine-tuning, both of which are well-defined extensions of this work.
+1. **Within open-source 2-7 B VLMs, LLaVA-1.5 is by far the strongest TextVQA reader zero-shot** (0.49 vs 0.26 / 0.23 for Qwen2.5-VL-3B and BLIP-2).
+2. **At n=1000, the top five prompts are statistically tied** (`ocr_short`, `constrained`, `baseline`, `key_focus`, `minimal_answer` all within 0.001 accuracy). Prompt engineering on a frozen LLaVA-1.5-7B does **not** produce exploitable gains — the simple `baseline` is already as good as any optimized prompt we designed.
+3. **More elaborate prompts (`verbatim_ocr`, `few_shot`, `cot`) all *hurt* performance** by 2–4 absolute points. The lesson is *less is more*: long prompts confuse the model on short-answer tasks; in-context examples bias toward the demonstrated formats; CoT encourages multi-sentence answers that fail exact-match scoring.
+4. **The ceiling is set by the visual encoder, not by the prompt.** With proper sample sizes the per-category breakdown is unambiguous: questions that don't need fine OCR (`yes_no`, `color`) are nearly solved (≥ 0.86), while clock reading sits at **0.11**. The next 10 absolute points require either a higher-resolution encoder or task-specific fine-tuning, both of which are well-defined extensions of this work.
 
 ---
 

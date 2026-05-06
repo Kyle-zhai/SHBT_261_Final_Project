@@ -12,12 +12,14 @@ The main goal is to understand:
 * Whether reasoning-style prompts help or hurt
 * What types of errors dominate in TextVQA
 
-**Headline numbers** (LLaVA-1.5-7B, validation, n=200):
+**Headline numbers** (LLaVA-1.5-7B, validation, n=1000):
 
-* Best prompt: `constrained` — accuracy **0.500**, VQA-soft **0.450**, LLM-Judge **0.758**
-* Best baseline: `baseline` — accuracy 0.490, LLM-Judge **0.768** (highest)
-* Worst prompt: `cot` — accuracy 0.455 (chain-of-thought hurts short-answer tasks)
-* All 10 prompts within a 5-point band → bottleneck is the visual encoder, not the prompt
+* Top 5 prompts statistically tied at acc ≈ 0.547 (`ocr_short`, `constrained`, `baseline`, `key_focus`, `minimal_answer`)
+* Best LLM-Judge: `key_focus` 0.796 (top-5 prompts all between 0.792 – 0.796)
+* Worst prompt: `verbatim_ocr` — accuracy 0.504 (longer instructions hurt short-answer tasks)
+* Full spread across 10 prompts: 4.3 absolute points (0.504 – 0.547)
+* Pilot (n=200): LLaVA-1.5 0.490 ≫ Qwen2.5-VL 0.255 ≫ BLIP-2 0.230
+* Per-category bottleneck: `time` 0.11, `text_read` 0.45, `price` 0.47 → bottleneck is the visual encoder, not the prompt
 
 ---
 
@@ -131,7 +133,7 @@ PYTHONPATH=. python scripts/run_main.py \
   --device cuda \
   --model llava15 \
   --prompts baseline cot ocr_short constrained ocr_exact key_focus minimal_answer textvqa_final verbatim_ocr few_shot \
-  --sample_size 200 \
+  --sample_size 1000 \
   --seed 42 \
   --max_new_tokens 32 \
   --output_dir outputs/main_oscar \
@@ -141,7 +143,7 @@ PYTHONPATH=. python scripts/run_main.py \
 
 Purpose:
 
-* Evaluate all 10 prompt variants on the same 200-sample fixed subset of validation
+* Evaluate all 10 prompt variants on the same 1000-sample fixed subset of validation
 * Save per-prompt predictions, metrics, and per-category breakdown
 
 Or just `sbatch slurm_run.sh` to run pilot + main + analyze in one job.
