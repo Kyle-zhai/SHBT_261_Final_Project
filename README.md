@@ -124,34 +124,27 @@ Purpose:
 
 ### 2. Main Experiment (Prompt Engineering)
 
-Run:
+Run on GPU (Oscar) — same settings used to produce `outputs/main_oscar/`:
 
-
-PYTHONPATH=. python scripts/run_main.py
---device cpu
---model llava15
---prompts constrained ocr_exact key_focus textvqa_final
---sample_size 30
---max_new_tokens 8
---output_dir outputs/main
---save_predictions
-
+```
+PYTHONPATH=. python scripts/run_main.py \
+  --device cuda \
+  --model llava15 \
+  --prompts baseline cot ocr_short constrained ocr_exact key_focus minimal_answer textvqa_final verbatim_ocr few_shot \
+  --sample_size 200 \
+  --seed 42 \
+  --max_new_tokens 32 \
+  --output_dir outputs/main_oscar \
+  --save_predictions \
+  --save_full_metrics
+```
 
 Purpose:
 
-* Evaluate different prompt designs
+* Evaluate all 10 prompt variants on the same 200-sample fixed subset of validation
+* Save per-prompt predictions, metrics, and per-category breakdown
 
-Use a separate output directory to avoid overwriting previous results. For example, for 15-sample prompt development:
-
-
-PYTHONPATH=. python scripts/run_main.py
---device cpu
---model llava15
---prompts baseline cot ocr_short constrained ocr_exact key_focus minimal_answer textvqa_final
---sample_size 15
---max_new_tokens 8
---output_dir outputs/main_15
---save_predictions
+Or just `sbatch slurm_run.sh` to run pilot + main + analyze in one job.
 
 
 ---
@@ -166,16 +159,18 @@ src/prompts/prompt_builder.py
 
 We design prompts based on error analysis:
 
-| Prompt        | Purpose                            |
-| ------------- | ---------------------------------- |
-| baseline      | Default prompt                     |
-| cot           | Chain-of-thought reasoning         |
-| ocr_short     | OCR-aware short answer             |
-| constrained   | Short answer constraint            |
-| ocr_exact     | Force exact text copying           |
-| key_focus     | Guide attention to relevant region |
-| minimal_answer | Very short word/number answer     |
-| textvqa_final | Combined optimized prompt          |
+| Prompt         | Purpose                                          |
+| -------------- | ------------------------------------------------ |
+| baseline       | Default prompt                                   |
+| cot            | Chain-of-thought reasoning                       |
+| ocr_short      | OCR-aware short answer                           |
+| constrained    | Short answer constraint                          |
+| ocr_exact      | Force exact text copying                         |
+| key_focus      | Guide attention to relevant region               |
+| minimal_answer | Very short word / number answer                  |
+| textvqa_final  | Combined optimized prompt                        |
+| verbatim_ocr   | 6-step OCR-first instruction (multi-word safe)   |
+| few_shot       | 4 in-context examples (time / price / brand / multi-word) |
 
 ---
 
@@ -195,8 +190,8 @@ Run evaluation:
 
 
 PYTHONPATH=. python scripts/evaluate_saved_predictions.py
---input outputs/main/llava15/textvqa_final/predictions.json
---output outputs/main/llava15/textvqa_final/metrics.json
+--input outputs/main_oscar/llava15/textvqa_final/predictions.json
+--output outputs/main_oscar/llava15/textvqa_final/metrics.json
 
 
 This script evaluates saved predictions only. It does **not** rerun the model, so it is useful for recomputing metrics without repeating slow inference.
@@ -209,7 +204,7 @@ To export selected TextVQA examples as image panels for the report, run:
 
 
 PYTHONPATH=. python scripts/export_error_figures.py
---predictions outputs/main/llava15/textvqa_final/predictions.json
+--predictions outputs/main_oscar/llava15/textvqa_final/predictions.json
 --output_dir figures/examples
 --sample_size 30
 --seed 42

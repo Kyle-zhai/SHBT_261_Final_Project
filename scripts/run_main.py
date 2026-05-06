@@ -65,7 +65,7 @@ def parse_args():
     parser.add_argument(
         "--output_dir",
         type=str,
-        default="outputs/main",
+        default="outputs/main_oscar",
         help="Directory to save outputs.",
     )
     parser.add_argument(

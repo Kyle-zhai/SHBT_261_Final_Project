@@ -1,5 +1,0 @@
-model,prompt,accuracy,num_samples,total_time_sec,avg_time_sec
-llava15,constrained,0.4333,30,12195.6775,406.5226
-llava15,ocr_exact,0.4333,30,13098.5673,436.6189
-llava15,key_focus,0.4333,30,13071.4003,435.7133
-llava15,textvqa_final,0.4333,30,12906.3382,430.2113
