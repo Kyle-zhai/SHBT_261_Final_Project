@@ -189,13 +189,15 @@ The full numbers (sorted by accuracy) are reported in Table 1.
 | price | 4 | 0.25 | 0.25 | 0.50 | 0.71 |
 | **time** | 8 | **0.13** | 0.13 | 0.25 | 0.70 |
 
+*(Source values: `outputs/main_oscar/llava15/constrained/category_breakdown.json`. The `time` row is 1/8 correct; we round 0.125 up to 0.13.)*
+
 The breakdown is striking:
 
 * **Categories that don't actually require OCR** (yes/no, color) score 100 %.
 * **Brand** is surprisingly strong (0.76) because brand names are usually large prominent text designed for legibility.
 * **Time, price, and text-read** are the bottlenecks. Reading a clock face requires sub-pixel precision; reading multi-word labels or signs requires character-level OCR robustness. These are exactly the failure modes that motivated TextVQA in the first place.
 
-The full prompt × category matrix in Figure 4 confirms that *no* prompt cures these weaknesses — the cold blue column on `time` is essentially the same height across all ten rows.
+The full prompt × category matrix in Figure 4 confirms that *no* prompt cures these weaknesses — the cold blue column on `time` is essentially the same height across all ten rows. (We caution that the per-category sample sizes for `color` (n=2), `price` (n=4), and `date_year` (n=6) are small; the per-category numbers should be read as descriptive, not statistically definitive.)
 
 ![Heatmap](figures/report/fig4_heatmap.png)
 
