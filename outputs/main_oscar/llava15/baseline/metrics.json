@@ -1,13 +1,13 @@
 {
-  "accuracy": 0.49,
-  "vqa_soft_accuracy": 0.4417,
-  "substring_match": 0.64,
-  "char_similarity": 0.7246,
-  "token_f1": 0.5645,
-  "token_precision": 0.5841,
-  "token_recall": 0.5655,
-  "bleu": 0.707,
-  "meteor": 0.3517,
-  "rouge_l": 0.5692,
-  "llm_judge": 0.7683
+  "accuracy": 0.546,
+  "vqa_soft_accuracy": 0.511,
+  "substring_match": 0.672,
+  "char_similarity": 0.7593,
+  "token_f1": 0.6085,
+  "token_precision": 0.6198,
+  "token_recall": 0.614,
+  "bleu": 0.7351,
+  "meteor": 0.3702,
+  "rouge_l": 0.6134,
+  "llm_judge": 0.7924
 }

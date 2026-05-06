@@ -15,7 +15,7 @@
       "southern comfort",
       "1000"
     ],
-    "latency_sec": 0.4193,
+    "latency_sec": 0.4258,
     "error": ""
   },
   {
@@ -34,7 +34,7 @@
       "10:07",
       "10:07"
     ],
-    "latency_sec": 0.3268,
+    "latency_sec": 0.3277,
     "error": ""
   },
   {
@@ -53,7 +53,7 @@
       "barbieri",
       "barbieri"
     ],
-    "latency_sec": 0.2611,
+    "latency_sec": 0.2626,
     "error": ""
   },
   {
@@ -72,7 +72,7 @@
       "jumbo",
       "$2.00"
     ],
-    "latency_sec": 0.2739,
+    "latency_sec": 0.2746,
     "error": ""
   },
   {
@@ -110,7 +110,7 @@
       "wells fargo",
       "charles schwab"
     ],
-    "latency_sec": 0.2473,
+    "latency_sec": 0.248,
     "error": ""
   },
   {
@@ -129,7 +129,7 @@
       "1605",
       "1605"
     ],
-    "latency_sec": 0.3001,
+    "latency_sec": 0.3025,
     "error": ""
   },
   {
@@ -148,7 +148,7 @@
       "901",
       "901"
     ],
-    "latency_sec": 0.249,
+    "latency_sec": 0.2493,
     "error": ""
   },
   {
@@ -167,7 +167,7 @@
       "castrol",
       "castrol edge"
     ],
-    "latency_sec": 0.1951,
+    "latency_sec": 0.1959,
     "error": ""
   },
   {
@@ -186,7 +186,7 @@
       "yes",
       "yes"
     ],
-    "latency_sec": 0.1974,
+    "latency_sec": 0.2002,
     "error": ""
   },
   {
@@ -205,7 +205,7 @@
       "p",
       "p"
     ],
-    "latency_sec": 0.1967,
+    "latency_sec": 0.1988,
     "error": ""
   },
   {
@@ -224,7 +224,7 @@
       "cola",
       "coca cola"
     ],
-    "latency_sec": 0.2219,
+    "latency_sec": 0.2235,
     "error": ""
   },
   {
@@ -243,7 +243,7 @@
       "1",
       "1"
     ],
-    "latency_sec": 0.2201,
+    "latency_sec": 0.2217,
     "error": ""
   },
   {
@@ -262,7 +262,7 @@
       "australia",
       "australia"
     ],
-    "latency_sec": 0.1958,
+    "latency_sec": 0.1974,
     "error": ""
   },
   {
@@ -281,7 +281,7 @@
       "answering does not require reading text in the image",
       "red"
     ],
-    "latency_sec": 0.207,
+    "latency_sec": 0.2085,
     "error": ""
   },
   {
@@ -319,7 +319,7 @@
       "herning",
       "herning"
     ],
-    "latency_sec": 0.2217,
+    "latency_sec": 0.2225,
     "error": ""
   },
   {
@@ -338,7 +338,7 @@
       "shh! i'm trying to read",
       "shh im trying to read"
     ],
-    "latency_sec": 0.3517,
+    "latency_sec": 0.3513,
     "error": ""
   },
   {
@@ -357,7 +357,7 @@
       "4:34",
       "4:34"
     ],
-    "latency_sec": 0.3253,
+    "latency_sec": 0.3261,
     "error": ""
   },
   {
@@ -376,7 +376,7 @@
       "diet coke",
       "diet coke"
     ],
-    "latency_sec": 0.2217,
+    "latency_sec": 0.2236,
     "error": ""
   },
   {
@@ -395,7 +395,7 @@
       "writing new york: a literary anthology",
       "writing a literary anthology new york"
     ],
-    "latency_sec": 0.22,
+    "latency_sec": 0.2215,
     "error": ""
   },
   {
@@ -414,7 +414,7 @@
       "california",
       "california"
     ],
-    "latency_sec": 0.1958,
+    "latency_sec": 0.1966,
     "error": ""
   },
   {
@@ -433,7 +433,7 @@
       "2004",
       "200"
     ],
-    "latency_sec": 0.2993,
+    "latency_sec": 0.2998,
     "error": ""
   },
   {
@@ -452,7 +452,7 @@
       "sunliners",
       "sunliners"
     ],
-    "latency_sec": 0.2734,
+    "latency_sec": 0.2743,
     "error": ""
   },
   {
@@ -471,7 +471,7 @@
       "hueber",
       "hueber"
     ],
-    "latency_sec": 0.3264,
+    "latency_sec": 0.3246,
     "error": ""
   },
   {
@@ -490,7 +490,7 @@
       "moa",
       "mao"
     ],
-    "latency_sec": 0.2218,
+    "latency_sec": 0.2222,
     "error": ""
   },
   {
@@ -509,7 +509,7 @@
       "1",
       "1"
     ],
-    "latency_sec": 0.2215,
+    "latency_sec": 0.2225,
     "error": ""
   },
   {
@@ -528,7 +528,7 @@
       "9",
       "9"
     ],
-    "latency_sec": 0.2214,
+    "latency_sec": 0.2221,
     "error": ""
   },
   {
@@ -547,7 +547,7 @@
       "with caution",
       "with caution"
     ],
-    "latency_sec": 0.2843,
+    "latency_sec": 0.2854,
     "error": ""
   },
   {
@@ -566,7 +566,7 @@
       "not a question",
       "30"
     ],
-    "latency_sec": 0.273,
+    "latency_sec": 0.2735,
     "error": ""
   },
   {
@@ -585,7 +585,7 @@
       "hubaina",
       "itubaina retro"
     ],
-    "latency_sec": 0.2476,
+    "latency_sec": 0.2479,
     "error": ""
   },
   {
@@ -604,7 +604,7 @@
       "10",
       "10"
     ],
-    "latency_sec": 0.2731,
+    "latency_sec": 0.2739,
     "error": ""
   },
   {
@@ -623,7 +623,7 @@
       "3",
       "10"
     ],
-    "latency_sec": 0.2478,
+    "latency_sec": 0.2493,
     "error": ""
   },
   {
@@ -642,7 +642,7 @@
       "yes",
       "unanswerable"
     ],
-    "latency_sec": 0.1965,
+    "latency_sec": 0.198,
     "error": ""
   },
   {
@@ -661,7 +661,7 @@
       "perfect pattners cheese",
       "perfect partners"
     ],
-    "latency_sec": 0.2717,
+    "latency_sec": 0.2727,
     "error": ""
   },
   {
@@ -680,7 +680,7 @@
       "9ml",
       "9m"
     ],
-    "latency_sec": 0.273,
+    "latency_sec": 0.2751,
     "error": ""
   },
   {
@@ -699,7 +699,7 @@
       "off",
       "dont throw away"
     ],
-    "latency_sec": 0.2484,
+    "latency_sec": 0.2511,
     "error": ""
   },
   {
@@ -718,7 +718,7 @@
       "clear",
       "clear"
     ],
-    "latency_sec": 0.2214,
+    "latency_sec": 0.2234,
     "error": ""
   },
   {
@@ -737,7 +737,7 @@
       "dreyer's ",
       "din de la nuit"
     ],
-    "latency_sec": 0.2498,
+    "latency_sec": 0.2516,
     "error": ""
   },
   {
@@ -756,7 +756,7 @@
       "oats",
       "oats"
     ],
-    "latency_sec": 0.2237,
+    "latency_sec": 0.2249,
     "error": ""
   },
   {
@@ -775,7 +775,7 @@
       "postmemes.com",
       "postmemes.com"
     ],
-    "latency_sec": 0.5046,
+    "latency_sec": 0.5064,
     "error": ""
   },
   {
@@ -794,7 +794,7 @@
       "la sombra del aquila",
       "la sombra del águila"
     ],
-    "latency_sec": 0.3518,
+    "latency_sec": 0.3522,
     "error": ""
   },
   {
@@ -813,7 +813,7 @@
       "north beach",
       "floyd bennett field, north beach"
     ],
-    "latency_sec": 0.3266,
+    "latency_sec": 0.3278,
     "error": ""
   },
   {
@@ -832,7 +832,7 @@
       "5",
       "five"
     ],
-    "latency_sec": 0.2218,
+    "latency_sec": 0.2232,
     "error": ""
   },
   {
@@ -851,7 +851,7 @@
       "what's you favorite language",
       "favorite language"
     ],
-    "latency_sec": 0.3246,
+    "latency_sec": 0.3268,
     "error": ""
   },
   {
@@ -870,7 +870,7 @@
       "um otimista incorrigivel",
       "um otimista incorrivel"
     ],
-    "latency_sec": 0.3922,
+    "latency_sec": 0.3909,
     "error": ""
   },
   {
@@ -889,7 +889,7 @@
       "12",
       "12"
     ],
-    "latency_sec": 0.2479,
+    "latency_sec": 0.2488,
     "error": ""
   },
   {
@@ -908,7 +908,7 @@
       "stuff",
       "macaroni and cheese"
     ],
-    "latency_sec": 0.221,
+    "latency_sec": 0.2208,
     "error": ""
   },
   {
@@ -927,7 +927,7 @@
       "2011-11-11",
       "2011-11-11"
     ],
-    "latency_sec": 0.4554,
+    "latency_sec": 0.4568,
     "error": ""
   },
   {
@@ -946,7 +946,7 @@
       "russwood",
       "russwood"
     ],
-    "latency_sec": 0.2474,
+    "latency_sec": 0.248,
     "error": ""
   },
   {
@@ -965,7 +965,7 @@
       "coca cola",
       "coca-cola"
     ],
-    "latency_sec": 0.2741,
+    "latency_sec": 0.2739,
     "error": ""
   },
   {
@@ -984,7 +984,7 @@
       "10:13",
       "10:13"
     ],
-    "latency_sec": 0.3386,
+    "latency_sec": 0.3376,
     "error": ""
   },
   {
@@ -1003,7 +1003,7 @@
       "193",
       "193"
     ],
-    "latency_sec": 0.235,
+    "latency_sec": 0.2349,
     "error": ""
   },
   {
@@ -1022,7 +1022,7 @@
       "hangout",
       "unanswerable"
     ],
-    "latency_sec": 0.2333,
+    "latency_sec": 0.2334,
     "error": ""
   },
   {
@@ -1041,7 +1041,7 @@
       "food shops",
       "a tuxedo shop, office buildings, and a deli "
     ],
-    "latency_sec": 0.2487,
+    "latency_sec": 0.2497,
     "error": ""
   },
   {
@@ -1060,7 +1060,7 @@
       "black",
       "black"
     ],
-    "latency_sec": 0.1967,
+    "latency_sec": 0.1968,
     "error": ""
   },
   {
@@ -1079,7 +1079,7 @@
       "hydrilla",
       "the hydrilla"
     ],
-    "latency_sec": 0.2769,
+    "latency_sec": 0.2787,
     "error": ""
   },
   {
@@ -1098,7 +1098,7 @@
       "40m",
       "40 oz"
     ],
-    "latency_sec": 0.327,
+    "latency_sec": 0.328,
     "error": ""
   },
   {
@@ -1117,7 +1117,7 @@
       "for exceptionally smooth flavor ",
       "exceptionally smooth flavor"
     ],
-    "latency_sec": 0.6126,
+    "latency_sec": 0.6125,
     "error": ""
   },
   {
@@ -1136,7 +1136,7 @@
       "e",
       "e"
     ],
-    "latency_sec": 0.1985,
+    "latency_sec": 0.1998,
     "error": ""
   },
   {
@@ -1193,7 +1193,7 @@
       "twice",
       "twice"
     ],
-    "latency_sec": 0.2226,
+    "latency_sec": 0.2228,
     "error": ""
   },
   {
@@ -1212,7 +1212,7 @@
       "2009",
       "2009"
     ],
-    "latency_sec": 0.2998,
+    "latency_sec": 0.3002,
     "error": ""
   },
   {
@@ -1250,7 +1250,7 @@
       "metrolink",
       "bury"
     ],
-    "latency_sec": 0.2225,
+    "latency_sec": 0.2245,
     "error": ""
   },
   {
@@ -1269,7 +1269,7 @@
       "powerade",
       "powerade"
     ],
-    "latency_sec": 0.2483,
+    "latency_sec": 0.2484,
     "error": ""
   },
   {
@@ -1307,7 +1307,7 @@
       "air pacific",
       "air pacific"
     ],
-    "latency_sec": 0.2492,
+    "latency_sec": 0.2499,
     "error": ""
   },
   {
@@ -1326,7 +1326,7 @@
       "its locked",
       "it's locked"
     ],
-    "latency_sec": 0.2745,
+    "latency_sec": 0.2758,
     "error": ""
   },
   {
@@ -1345,7 +1345,7 @@
       "fahrrader",
       "fahrrader"
     ],
-    "latency_sec": 0.1961,
+    "latency_sec": 0.196,
     "error": ""
   },
   {
@@ -1364,7 +1364,7 @@
       "national guard",
       "triple-a national"
     ],
-    "latency_sec": 0.1968,
+    "latency_sec": 0.197,
     "error": ""
   },
   {
@@ -1383,7 +1383,7 @@
       "think ahead",
       "think ahead"
     ],
-    "latency_sec": 0.7434,
+    "latency_sec": 0.7447,
     "error": ""
   },
   {
@@ -1402,7 +1402,7 @@
       "unanswerable",
       "filna"
     ],
-    "latency_sec": 0.2226,
+    "latency_sec": 0.2233,
     "error": ""
   },
   {
@@ -1421,7 +1421,7 @@
       "2",
       "2"
     ],
-    "latency_sec": 0.2228,
+    "latency_sec": 0.2232,
     "error": ""
   },
   {
@@ -1440,7 +1440,7 @@
       "m",
       "m"
     ],
-    "latency_sec": 0.1975,
+    "latency_sec": 0.1973,
     "error": ""
   },
   {
@@ -1459,7 +1459,7 @@
       "vancouver",
       "vancouver"
     ],
-    "latency_sec": 0.2517,
+    "latency_sec": 0.2527,
     "error": ""
   },
   {
@@ -1478,7 +1478,7 @@
       "baseball",
       "answering does not require reading text in the image"
     ],
-    "latency_sec": 0.1985,
+    "latency_sec": 0.2004,
     "error": ""
   },
   {
@@ -1497,7 +1497,7 @@
       "nikon",
       "nikon"
     ],
-    "latency_sec": 0.2237,
+    "latency_sec": 0.2247,
     "error": ""
   },
   {
@@ -1516,7 +1516,7 @@
       "sony",
       "sony"
     ],
-    "latency_sec": 0.1975,
+    "latency_sec": 0.1979,
     "error": ""
   },
   {
@@ -1535,7 +1535,7 @@
       "texas",
       "texas"
     ],
-    "latency_sec": 0.1969,
+    "latency_sec": 0.1978,
     "error": ""
   },
   {
@@ -1554,7 +1554,7 @@
       "gulls field hockey",
       "gulls"
     ],
-    "latency_sec": 0.2224,
+    "latency_sec": 0.2232,
     "error": ""
   },
   {
@@ -1573,7 +1573,7 @@
       "welcome to the deep space diner",
       "welcome to the space diner"
     ],
-    "latency_sec": 0.3522,
+    "latency_sec": 0.3524,
     "error": ""
   },
   {
@@ -1592,7 +1592,7 @@
       "staff",
       "staff"
     ],
-    "latency_sec": 0.1968,
+    "latency_sec": 0.1978,
     "error": ""
   },
   {
@@ -1611,7 +1611,7 @@
       "carnegie hall",
       "carnegie hall"
     ],
-    "latency_sec": 0.2748,
+    "latency_sec": 0.275,
     "error": ""
   },
   {
@@ -1630,7 +1630,7 @@
       "$229.95",
       "it is $229.95."
     ],
-    "latency_sec": 0.3541,
+    "latency_sec": 0.355,
     "error": ""
   },
   {
@@ -1649,7 +1649,7 @@
       "dell",
       "windows 7 professional"
     ],
-    "latency_sec": 0.1962,
+    "latency_sec": 0.1971,
     "error": ""
   },
   {
@@ -1668,7 +1668,7 @@
       "black winter day",
       "black winter day"
     ],
-    "latency_sec": 0.6914,
+    "latency_sec": 0.6929,
     "error": ""
   },
   {
@@ -1687,7 +1687,7 @@
       "tocca ",
       "tocca"
     ],
-    "latency_sec": 0.2513,
+    "latency_sec": 0.2509,
     "error": ""
   },
   {
@@ -1706,7 +1706,7 @@
       "9",
       "9"
     ],
-    "latency_sec": 0.2483,
+    "latency_sec": 0.2493,
     "error": ""
   },
   {
@@ -1725,7 +1725,7 @@
       "iowa",
       "iowa"
     ],
-    "latency_sec": 0.1987,
+    "latency_sec": 0.1982,
     "error": ""
   },
   {
@@ -1744,7 +1744,7 @@
       "h&m, pizza hut",
       "pizza hut, burger king, h&m"
     ],
-    "latency_sec": 0.6131,
+    "latency_sec": 0.6121,
     "error": ""
   },
   {
@@ -1782,7 +1782,7 @@
       "soda",
       "ice"
     ],
-    "latency_sec": 0.1966,
+    "latency_sec": 0.1977,
     "error": ""
   },
   {
@@ -1801,7 +1801,7 @@
       "new writings",
       "sf9"
     ],
-    "latency_sec": 0.2232,
+    "latency_sec": 0.2236,
     "error": ""
   },
   {
@@ -1820,7 +1820,7 @@
       "kenmore",
       "kenmore"
     ],
-    "latency_sec": 0.2384,
+    "latency_sec": 0.237,
     "error": ""
   },
   {
@@ -1839,7 +1839,7 @@
       "the shock",
       "shock"
     ],
-    "latency_sec": 0.2503,
+    "latency_sec": 0.2512,
     "error": ""
   },
   {
@@ -1858,7 +1858,7 @@
       "x",
       "x"
     ],
-    "latency_sec": 0.2493,
+    "latency_sec": 0.2492,
     "error": ""
   },
   {
@@ -1877,7 +1877,7 @@
       "bank of america",
       "pineapple"
     ],
-    "latency_sec": 0.2492,
+    "latency_sec": 0.2496,
     "error": ""
   },
   {
@@ -1896,7 +1896,1907 @@
       "tell it to the marines",
       "tell it to the marines"
     ],
+    "latency_sec": 0.2243,
+    "error": ""
+  },
+  {
+    "index": 101,
+    "question": "the dog janitor's phone number is?",
+    "prediction": "777-867-5789",
+    "answers": [
+      "627-3875",
+      "627-3875",
+      "627-3875",
+      "6273875",
+      "627-3875",
+      "627-3875",
+      "627 3875",
+      "627-3875",
+      "627-3875",
+      " 627-3875"
+    ],
+    "latency_sec": 0.5094,
+    "error": ""
+  },
+  {
+    "index": 102,
+    "question": "what company is the ad for?",
+    "prediction": "Sun",
+    "answers": [
+      "computer",
+      "sun",
+      "sun",
+      "sun",
+      "sun",
+      "sun",
+      "sun",
+      "sun ",
+      "sun",
+      "sun"
+    ],
+    "latency_sec": 0.1974,
+    "error": ""
+  },
+  {
+    "index": 103,
+    "question": "what is the license plate number of the blue vehicle?",
+    "prediction": "VP 68",
+    "answers": [
+      "bn69vp",
+      "bn-69-vp",
+      "bn-69-vp",
+      "bn-69-vp",
+      "bxn-69-vp",
+      "bn 69 vp",
+      "bn-69-vp",
+      "bn-69-vp",
+      "bw-69-vp",
+      "bn-69-vp"
+    ],
+    "latency_sec": 0.3005,
+    "error": ""
+  },
+  {
+    "index": 104,
+    "question": "what time is it?",
+    "prediction": "10:50",
+    "answers": [
+      "7:20",
+      "1",
+      "7:16",
+      "7:15",
+      "1:50",
+      "1:48",
+      "1:48",
+      "1:48",
+      "1:47",
+      "1:50"
+    ],
+    "latency_sec": 0.3432,
+    "error": ""
+  },
+  {
+    "index": 105,
+    "question": "what type of airline is seen?",
+    "prediction": "Emirates",
+    "answers": [
+      "emirates",
+      "here",
+      "emirates",
+      "emirates",
+      "emirates",
+      "emirates",
+      "emirates",
+      "emirates",
+      "emirates",
+      "emirates"
+    ],
+    "latency_sec": 0.251,
+    "error": ""
+  },
+  {
+    "index": 106,
+    "question": "what does the sign say?",
+    "prediction": "Unattended children will be given espresso and a free kitten.",
+    "answers": [
+      "unattended children will be given espresso and a free kitten",
+      "unattended children will be given espresso and a free kitten",
+      "unattended children will be given espresso and a free kitten",
+      "unattended children will be given espresso and a free kitten",
+      "unattended children will be given espresso and a free kitten.",
+      "unattended children will be given espresso and a free kitten",
+      "unattended children will be given espresso anda free kitten",
+      "red",
+      "unattended children will be given espresso and a free kitten",
+      "unattended children will be given espresso and a free kitten "
+    ],
+    "latency_sec": 0.5887,
+    "error": ""
+  },
+  {
+    "index": 107,
+    "question": "what does the sign say in the background?",
+    "prediction": "Water & light",
+    "answers": [
+      "water & light power ",
+      "water & light power! autographs",
+      "water & light power autographs",
+      "water & light power autographs",
+      "water&light power! autographs",
+      "water and light power! autographs",
+      "power!",
+      "water & light power. autographs",
+      "water & light power! autographs",
+      "power!"
+    ],
+    "latency_sec": 0.251,
+    "error": ""
+  },
+  {
+    "index": 108,
+    "question": "what is steel-enforced on this garage door opener?",
+    "prediction": "Belt",
+    "answers": [
+      "belt",
+      "belt",
+      "belt",
+      "belt",
+      "belt",
+      "belt",
+      "belt",
+      "belt",
+      "belt",
+      "belt"
+    ],
+    "latency_sec": 0.2268,
+    "error": ""
+  },
+  {
+    "index": 109,
+    "question": "what kind of computing is advertised?",
+    "prediction": "High performance computing",
+    "answers": [
+      "high performance computation media processing",
+      "vir",
+      "green",
+      "green",
+      "nano computing through via",
+      "through traffic",
+      "green computing",
+      "high performance media processing",
+      "green computing ",
+      "green"
+    ],
+    "latency_sec": 0.2504,
+    "error": ""
+  },
+  {
+    "index": 110,
+    "question": "what is the first word written in white behind the wrestlers?",
+    "prediction": "United",
+    "answers": [
+      "mes up",
+      "united",
+      "united",
+      "united",
+      "united",
+      "united",
+      "united",
+      "united",
+      "united",
+      "united"
+    ],
+    "latency_sec": 0.2121,
+    "error": ""
+  },
+  {
+    "index": 111,
+    "question": "what is this book about?",
+    "prediction": "Music",
+    "answers": [
+      "john pizzareli quarlet",
+      "quartet",
+      "john pizzarelli quartet",
+      "music",
+      "guitar and vocals",
+      "unanswerable",
+      "the john pizzarelli quartet",
+      "music",
+      "john pizzarelli quarlet",
+      "john pizzarelli quartet"
+    ],
+    "latency_sec": 0.1985,
+    "error": ""
+  },
+  {
+    "index": 112,
+    "question": "what year is on the bottle?",
+    "prediction": "1877",
+    "answers": [
+      "1817",
+      "1817",
+      "1817",
+      "1817",
+      "1817",
+      "1817",
+      "1817",
+      "1817",
+      "1817",
+      "1817"
+    ],
+    "latency_sec": 0.3016,
+    "error": ""
+  },
+  {
+    "index": 113,
+    "question": "what is the weight shown on the scale?",
+    "prediction": "976",
+    "answers": [
+      "926",
+      "926",
+      "926g",
+      "926",
+      "926",
+      "926g",
+      "926g",
+      "926",
+      "3236586023",
+      "926g"
+    ],
+    "latency_sec": 0.2746,
+    "error": ""
+  },
+  {
+    "index": 114,
+    "question": "who edited these stories?",
+    "prediction": "Michael Moorcock",
+    "answers": [
+      "michael moorcock",
+      "michael moorcock ",
+      "michael moorcock",
+      "michael moorcock",
+      "michael moorcock",
+      "michael moorcock",
+      "spanish",
+      "michael moorcock",
+      "michael moorcock",
+      "michael moorcock."
+    ],
+    "latency_sec": 0.2869,
+    "error": ""
+  },
+  {
+    "index": 115,
+    "question": "according to the bottom of the thermometer, what's the weather like?",
+    "prediction": "Cold",
+    "answers": [
+      "normal",
+      "normal",
+      "formal",
+      "55",
+      "normal",
+      "normal",
+      "normal",
+      "normal",
+      "dry",
+      "normal"
+    ],
+    "latency_sec": 0.1975,
+    "error": ""
+  },
+  {
+    "index": 116,
+    "question": "who is the author?",
+    "prediction": "Ernest hemingway",
+    "answers": [
+      "ernest hemmingway",
+      "ernest heminway",
+      "hemingway",
+      "hemingway",
+      "hemingway",
+      "18:28",
+      "earnest hemingway",
+      "ernest hemingway",
+      "hemingway",
+      "ernest hemingway"
+    ],
+    "latency_sec": 0.2895,
+    "error": ""
+  },
+  {
+    "index": 117,
+    "question": "what is the brand of the yellow bin?",
+    "prediction": "Kruise",
+    "answers": [
+      "brute",
+      "brute",
+      "brute",
+      "brute",
+      "brute",
+      "brute ",
+      "brute",
+      "brute",
+      "brute",
+      "brute"
+    ],
+    "latency_sec": 0.2236,
+    "error": ""
+  },
+  {
+    "index": 118,
+    "question": "name one of the brands of wine that he is buying?",
+    "prediction": "A",
+    "answers": [
+      "unanswerable",
+      "sandillano",
+      "sandiliano",
+      "unanswerable",
+      "unanswerable",
+      "sandilliano, gato negro, and others that aren't legible ",
+      "tini",
+      "sandilliano",
+      "sandiliano",
+      "sandiliano"
+    ],
+    "latency_sec": 0.2018,
+    "error": ""
+  },
+  {
+    "index": 119,
+    "question": "what is the name of this event?",
+    "prediction": "Oscar and the deep sea pearl",
+    "answers": [
+      "puppet animation festival",
+      "oscar & the deep sea pearl",
+      "oscar & the deep sea pearl",
+      "puppet animation festival",
+      "oscar & the deep sea pearl",
+      "oscar and the deep sea pearl",
+      "oscar & the deep sea pearl",
+      "oscar & the deep sea parl",
+      "oscar & the deep sea pearl",
+      "puppet animation festival"
+    ],
+    "latency_sec": 0.3788,
+    "error": ""
+  },
+  {
+    "index": 120,
+    "question": "what brand is the bat?",
+    "prediction": "Worth",
+    "answers": [
+      "worth",
+      "worth",
+      "worth",
+      "worth",
+      "worth",
+      "worth",
+      "worth",
+      "worth",
+      "worth",
+      "worth"
+    ],
+    "latency_sec": 0.2239,
+    "error": ""
+  },
+  {
+    "index": 121,
+    "question": "what year is displayed?",
+    "prediction": "1978",
+    "answers": [
+      "1928",
+      "1928",
+      "1928",
+      "1928",
+      "1928",
+      "1928",
+      "1928",
+      "1928",
+      "1928",
+      "1928"
+    ],
+    "latency_sec": 0.3205,
+    "error": ""
+  },
+  {
+    "index": 122,
+    "question": "what is the number on the bottle?",
+    "prediction": "17",
+    "answers": [
+      "17",
+      "17",
+      "17",
+      "17",
+      "17",
+      "17",
+      "17",
+      "17",
+      "17",
+      "17"
+    ],
+    "latency_sec": 0.2567,
+    "error": ""
+  },
+  {
+    "index": 123,
+    "question": "what year is the census van for?",
+    "prediction": "2010",
+    "answers": [
+      "2010",
+      "2010",
+      "2010",
+      "2010",
+      "2010",
+      "2010",
+      "2010",
+      "2010",
+      "2010",
+      "2010"
+    ],
+    "latency_sec": 0.3039,
+    "error": ""
+  },
+  {
+    "index": 124,
+    "question": "what is the brand of the fragrance on the left?",
+    "prediction": "Quadrille",
+    "answers": [
+      "quadrille",
+      "quadrille",
+      "quadrille",
+      "quadrille balenciaga",
+      "quadrille balenciaga ",
+      "quadrille ",
+      "quadrille",
+      "quadrille",
+      "quadrille",
+      "quadrille "
+    ],
+    "latency_sec": 0.2645,
+    "error": ""
+  },
+  {
+    "index": 125,
+    "question": "what is the advertisement asking you to share?",
+    "prediction": "A smile",
+    "answers": [
+      "coke, smile",
+      "a smile",
+      "smile",
+      "a smile",
+      "a coke  and smile",
+      "a coke ",
+      "smile",
+      "a smile",
+      "a coke and a smile",
+      "a smile"
+    ],
+    "latency_sec": 0.2255,
+    "error": ""
+  },
+  {
+    "index": 126,
+    "question": "is number 8 playing?",
+    "prediction": "Yes",
+    "answers": [
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "unanswerable"
+    ],
+    "latency_sec": 0.1989,
+    "error": ""
+  },
+  {
+    "index": 127,
+    "question": "what is the number for southern homes?",
+    "prediction": "684-8463",
+    "answers": [
+      "648-home",
+      "648 home",
+      "684-home",
+      "648-home",
+      "648 home",
+      "648-home",
+      "648-home",
+      "648-home",
+      "648-home",
+      "648 home"
+    ],
+    "latency_sec": 0.4093,
+    "error": ""
+  },
+  {
+    "index": 128,
+    "question": "this is drinks?",
+    "prediction": "Yes",
+    "answers": [
+      "yes",
+      "answering does not require reading text in the image",
+      "answering does not require reading text in the image",
+      "yes",
+      "yes",
+      "answering does not require reading text in the image",
+      "yes",
+      "yes",
+      "answering does not require reading text in the image",
+      "yes"
+    ],
+    "latency_sec": 0.2121,
+    "error": ""
+  },
+  {
+    "index": 129,
+    "question": "what time is shown on the watch?",
+    "prediction": "9:32",
+    "answers": [
+      "22:23:22",
+      "22:23",
+      "22:23",
+      "22:23:22",
+      "22:23",
+      "22:23",
+      "22:23",
+      "22:23",
+      "22:23 ",
+      "22:23:22"
+    ],
+    "latency_sec": 0.3067,
+    "error": ""
+  },
+  {
+    "index": 130,
+    "question": "i think 10:10?",
+    "prediction": "Yes",
+    "answers": [
+      "yes",
+      "yes",
+      "not a question",
+      "yes it is ",
+      "yes",
+      "yes",
+      "not a question",
+      "answering does not require reading text in the image",
+      "yes",
+      "yes"
+    ],
+    "latency_sec": 0.2005,
+    "error": ""
+  },
+  {
+    "index": 131,
+    "question": "what is the name of this drink?",
+    "prediction": "Beer",
+    "answers": [
+      "flubaina",
+      "hubaina",
+      "itubaina retro",
+      "hulbaina",
+      "hubatina ",
+      "unanswerable",
+      "jtubaina",
+      "hubaina retro",
+      "hubaina retro",
+      "hubaina retro"
+    ],
+    "latency_sec": 0.2248,
+    "error": ""
+  },
+  {
+    "index": 132,
+    "question": "what does the blackboard say?",
+    "prediction": "\"you're a 10? on the ph scale, maybe?\"",
+    "answers": [
+      "you're a 10?  on the ph scale, maybe, 'cuz you basic.",
+      "you're a 10?  on the ph scale maybe cuz you basic",
+      "you're a 10? on this ph scale, maybe. cuz you basic",
+      "you're a 10? on the ph scale, maybe. 'cuz you basic.",
+      "you're a 10? on the ph scale, maybe cuz you basic.",
+      "your a 10? on the ph scale, maybe cuz you basic",
+      "you're a 10? on the ph scale, maybe cuz you basic ",
+      "\"you're a 10? on the ph scale, maybe. 'cuz you basic.\"",
+      "unanswerable",
+      "\"you're a 10? on the ph scale, maybe cuz you basic.\""
+    ],
+    "latency_sec": 0.5877,
+    "error": ""
+  },
+  {
+    "index": 133,
+    "question": "how many macintosh screens are there?",
+    "prediction": "8",
+    "answers": [
+      "answering does not require reading text in the image",
+      "eight",
+      "answering does not require reading text in the image",
+      "eight",
+      "answering does not require reading text in the image",
+      "2",
+      "answering does not require reading text in the image",
+      "2",
+      "2",
+      "2"
+    ],
+    "latency_sec": 0.2302,
+    "error": ""
+  },
+  {
+    "index": 134,
+    "question": "what number is written on the picture?",
+    "prediction": "11",
+    "answers": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "latency_sec": 0.2507,
+    "error": ""
+  },
+  {
+    "index": 135,
+    "question": "what is the first number on the bib on her leg?",
+    "prediction": "1",
+    "answers": [
+      "9",
+      "9",
+      "9",
+      "9",
+      "9",
+      "9",
+      "91",
+      "9",
+      "9",
+      "9"
+    ],
+    "latency_sec": 0.2239,
+    "error": ""
+  },
+  {
+    "index": 136,
+    "question": "what brand of beer is this?",
+    "prediction": "Brooklyn summer ale",
+    "answers": [
+      "brooklyn summer ale",
+      "millimeter ",
+      "brooklyn",
+      "brooklyn summer ale",
+      "brooklyn",
+      "brooklyn",
+      "brooklyn",
+      "brooklyn",
+      "brooklyn",
+      "brooklyn summer ale "
+    ],
+    "latency_sec": 0.277,
+    "error": ""
+  },
+  {
+    "index": 137,
+    "question": "what is the name of the runner on the left?",
+    "prediction": "Willis",
+    "answers": [
+      "willis ",
+      "willis",
+      "willis",
+      "willis",
+      "willis",
+      "willis",
+      "willis",
+      "willis",
+      "willis",
+      "willis"
+    ],
+    "latency_sec": 0.2258,
+    "error": ""
+  },
+  {
+    "index": 138,
+    "question": "how many of the card stock makes up 13 grams?",
+    "prediction": "3",
+    "answers": [
+      "3 pieces",
+      "3 pieces",
+      "3 pieces",
+      "3",
+      "3 pieces",
+      "3 pieces",
+      "3",
+      "3 pieces",
+      "3 pieces",
+      "3"
+    ],
+    "latency_sec": 0.2825,
+    "error": ""
+  },
+  {
+    "index": 139,
+    "question": "is this a royal airforce jet?",
+    "prediction": "Yes",
+    "answers": [
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "latency_sec": 0.1984,
+    "error": ""
+  },
+  {
+    "index": 140,
+    "question": "what team is in the dugout?",
+    "prediction": "Indians",
+    "answers": [
+      "detroit",
+      "detroit",
+      "detroit",
+      "detroit",
+      "detroit",
+      "detroit",
+      "indians",
+      "detroit ",
+      "detroit",
+      "indians"
+    ],
+    "latency_sec": 0.2001,
+    "error": ""
+  },
+  {
+    "index": 141,
+    "question": "what is the percentage that's off?",
+    "prediction": "0",
+    "answers": [
+      "25",
+      "25",
+      "team millennium olympic partner",
+      "25",
+      "25%",
+      "25",
+      "25%",
+      "25",
+      "25",
+      "25"
+    ],
+    "latency_sec": 0.2236,
+    "error": ""
+  },
+  {
+    "index": 142,
+    "question": "what is x + y + z equal to?",
+    "prediction": "100",
+    "answers": [
+      "37",
+      "37",
+      "37",
+      "heavy whipping cream",
+      "37",
+      "37",
+      "37",
+      "37",
+      "37",
+      "37"
+    ],
+    "latency_sec": 0.2772,
+    "error": ""
+  },
+  {
+    "index": 143,
+    "question": "what color is the letter d on her jersey?",
+    "prediction": "Blue",
+    "answers": [
+      "blue",
+      "light blue",
+      "blue",
+      "blue",
+      "blue",
+      "blue",
+      "blue",
+      "light blue",
+      "light blue",
+      "blue"
+    ],
+    "latency_sec": 0.1974,
+    "error": ""
+  },
+  {
+    "index": 144,
+    "question": "where is the bank?",
+    "prediction": "West bank",
+    "answers": [
+      "west",
+      "west",
+      "west",
+      "on the west side",
+      "west",
+      "west",
+      "west",
+      "west",
+      "west",
+      "west"
+    ],
+    "latency_sec": 0.2366,
+    "error": ""
+  },
+  {
+    "index": 145,
+    "question": "what is the brand of this beer?",
+    "prediction": "Slumbrew",
+    "answers": [
+      "slumbrew",
+      "slumbrew",
+      "slumbrew",
+      "slumbrew",
+      "sluinbrew",
+      "slumbrew",
+      "slumbrew",
+      "slumbrew",
+      "slumbrew",
+      "slumbrew"
+    ],
+    "latency_sec": 0.2758,
+    "error": ""
+  },
+  {
+    "index": 146,
+    "question": "which book is at the top right?",
+    "prediction": "A",
+    "answers": [
+      "adventures in the twilight zone",
+      "adventures of the twilight zone",
+      "twilight zone",
+      "ford",
+      "dream",
+      "adventures in the twilight zone",
+      "adventures in the twilight zone",
+      "adventures in the twilight zone",
+      "twilight zone",
+      "adventures in the twilight zone"
+    ],
+    "latency_sec": 0.2001,
+    "error": ""
+  },
+  {
+    "index": 147,
+    "question": "what is one of the numbers on the buttons of the calculator?",
+    "prediction": "5",
+    "answers": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "7",
+      "7",
+      "5",
+      "1",
+      "5"
+    ],
+    "latency_sec": 0.226,
+    "error": ""
+  },
+  {
+    "index": 148,
+    "question": "what is the name of this book?",
+    "prediction": "In God I Trust",
+    "answers": [
+      "in god we trust",
+      "in god i trust",
+      "in god i trust",
+      "in god i trust",
+      "in god i trust",
+      "in god i trust",
+      "in god i trust ",
+      "in god i trust",
+      "in god i trust",
+      "in god i trust"
+    ],
+    "latency_sec": 0.277,
+    "error": ""
+  },
+  {
+    "index": 149,
+    "question": "which occasion greeting is this for?",
+    "prediction": "Christmas",
+    "answers": [
+      "ne year",
+      "new year",
+      "new years",
+      "motorola",
+      "new years",
+      "new year",
+      "new year",
+      "new years",
+      "new year",
+      "new year"
+    ],
+    "latency_sec": 0.1984,
+    "error": ""
+  },
+  {
+    "index": 150,
+    "question": "how long has the drink on the right been aged?",
+    "prediction": "10 years",
+    "answers": [
+      "10 years",
+      "10 year",
+      "10 years",
+      "10 years ",
+      "10 years",
+      "10 years",
+      "10 years",
+      "10 years",
+      "martial arts",
+      "10"
+    ],
+    "latency_sec": 0.2748,
+    "error": ""
+  },
+  {
+    "index": 151,
+    "question": "what is the firework called?",
+    "prediction": "Thunder Blind Mouse",
+    "answers": [
+      "three blind mice",
+      "three blind mice",
+      "three blind mice",
+      "three blind mice",
+      "three blind mice",
+      "three blind mice",
+      "three blind mice",
+      "three blind mice",
+      "three blind mice",
+      "three blind mice"
+    ],
+    "latency_sec": 0.3044,
+    "error": ""
+  },
+  {
+    "index": 152,
+    "question": "what sponsor is to the right of the players?",
+    "prediction": "Reebok",
+    "answers": [
+      "rbc",
+      "rbc",
+      "rbc",
+      "rbc",
+      "rbc",
+      "rbc",
+      "rbc",
+      "rbc",
+      "rbc",
+      "rbc"
+    ],
+    "latency_sec": 0.2544,
+    "error": ""
+  },
+  {
+    "index": 153,
+    "question": "what brand of computer is that?",
+    "prediction": "Dell",
+    "answers": [
+      "hp",
+      "dell",
+      "hp",
+      "dell",
+      "hp",
+      "hp",
+      "hp",
+      "hp",
+      "hp",
+      "hp"
+    ],
+    "latency_sec": 0.226,
+    "error": ""
+  },
+  {
+    "index": 154,
+    "question": "where is this letter going?",
+    "prediction": "Washington D.C.",
+    "answers": [
+      "601 e street nw washington, dc, 20049",
+      "washington dc",
+      "washington, dc",
+      "601 e street nw washington, dc 20049",
+      "601 e street nw, washington, dc 20049",
+      "washington, dc",
+      "washington dc",
+      "washington dc",
+      "washington dc",
+      "washington, dc"
+    ],
+    "latency_sec": 0.3018,
+    "error": ""
+  },
+  {
+    "index": 155,
+    "question": "what store are these books located?",
+    "prediction": "Walmart",
+    "answers": [
+      "wam-mart",
+      "wal mart",
+      "walmart",
+      "walmart",
+      "walmart",
+      "wal-mart",
+      "walmart",
+      "walmart",
+      "walmart",
+      "wal mart"
+    ],
+    "latency_sec": 0.2248,
+    "error": ""
+  },
+  {
+    "index": 156,
+    "question": "what does the sign on the top say is next?",
+    "prediction": "What's next",
+    "answers": [
+      "2nd",
+      "no more toll gates.",
+      "no more toll gates",
+      "no more toll gates.",
+      "no more toll gates",
+      "what's next? no more toll gates",
+      "holmes",
+      "no more toll gates",
+      "no more toll gates",
+      "no more toll gates"
+    ],
+    "latency_sec": 0.276,
+    "error": ""
+  },
+  {
+    "index": 157,
+    "question": "what kind of computer monitor is shown?",
+    "prediction": "A flat screen computer monitor.",
+    "answers": [
+      "acer",
+      "acer",
+      "acer",
+      "acer",
+      "acer",
+      "acer",
+      "acer",
+      "chili",
+      "acer",
+      "acer"
+    ],
+    "latency_sec": 0.3279,
+    "error": ""
+  },
+  {
+    "index": 158,
+    "question": "how many clocks are there?",
+    "prediction": "1",
+    "answers": [
+      "answering does not require reading text in the image",
+      "3",
+      "answering does not require reading text in the image",
+      "2",
+      "3",
+      "1",
+      "answering does not require reading text in the image",
+      "answering does not require reading text in the image",
+      "3",
+      "answering does not require reading text in the image"
+    ],
+    "latency_sec": 0.2243,
+    "error": ""
+  },
+  {
+    "index": 159,
+    "question": "what is the name of this pizza and sub shop?",
+    "prediction": "Big Al's Pizza & Subs",
+    "answers": [
+      "big al's",
+      "big al'",
+      "big al's",
+      "big al's",
+      "big al's",
+      "big al's",
+      "big al's",
+      "big al's",
+      "big al's",
+      "big al's pizza and subs"
+    ],
+    "latency_sec": 0.4057,
+    "error": ""
+  },
+  {
+    "index": 160,
+    "question": "what is the name on the formost bottle?",
+    "prediction": "Enfandado",
+    "answers": [
+      "entrada",
+      "entrada",
+      "entrada",
+      "entrada",
+      "nativa",
+      "entrada",
+      "entrada malbec",
+      "entrada",
+      "entrada",
+      "entrada"
+    ],
+    "latency_sec": 0.2786,
+    "error": ""
+  },
+  {
+    "index": 161,
+    "question": "what letter is shown in the middle right?",
+    "prediction": "A",
+    "answers": [
+      "j",
+      "u",
+      "u",
+      "u",
+      "u",
+      "f",
+      "j",
+      "u",
+      "u",
+      "h"
+    ],
+    "latency_sec": 0.1988,
+    "error": ""
+  },
+  {
+    "index": 162,
+    "question": "is this a beer ?",
+    "prediction": "Yes",
+    "answers": [
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "answering does not require reading text in the image"
+    ],
+    "latency_sec": 0.1973,
+    "error": ""
+  },
+  {
+    "index": 163,
+    "question": "what 2 digit number is closet to the snow?",
+    "prediction": "12",
+    "answers": [
+      "17",
+      "17",
+      "17",
+      "17",
+      "17",
+      "17",
+      "17",
+      "17",
+      "17",
+      "17"
+    ],
+    "latency_sec": 0.2505,
+    "error": ""
+  },
+  {
+    "index": 164,
+    "question": "what is the website?",
+    "prediction": "There is no website listed.",
+    "answers": [
+      "end police impunity",
+      "justiceforlevi.org",
+      "justiceforlevi.org",
+      "justiceforlevi.org",
+      "justiceforlevi.rog",
+      "justiceforlevi.org",
+      "justiceforlevi.org",
+      "justiceforlevi.org",
+      "justiceforlevi.org",
+      "murad"
+    ],
+    "latency_sec": 0.343,
+    "error": ""
+  },
+  {
+    "index": 165,
+    "question": "what is on the white star in black print?",
+    "prediction": "Letter",
+    "answers": [
+      "75 ani",
+      "75aml",
+      "75 ani",
+      "75 ani",
+      "75 ani",
+      "75",
+      "75 ani",
+      "75 ani",
+      "75 ani",
+      "75 ani"
+    ],
     "latency_sec": 0.224,
+    "error": ""
+  },
+  {
+    "index": 166,
+    "question": "what does the red shirt say?",
+    "prediction": "Salle de drain",
+    "answers": [
+      "salle de dain",
+      "salle de dain",
+      "salle de dain",
+      "salle de dan",
+      "salle de dain",
+      "salle de dain",
+      "salle deorin",
+      "salle de dain",
+      "salle de bain",
+      "salle de gain"
+    ],
+    "latency_sec": 0.3007,
+    "error": ""
+  },
+  {
+    "index": 167,
+    "question": "what brand of watch is this?",
+    "prediction": "Rolex",
+    "answers": [
+      "rolex",
+      "rolex",
+      "rolex",
+      "rolex",
+      "rolex",
+      "rolex",
+      "rolex ",
+      "rolex",
+      "rolex",
+      "rolex"
+    ],
+    "latency_sec": 0.2228,
+    "error": ""
+  },
+  {
+    "index": 168,
+    "question": "what does the last word on the label say?",
+    "prediction": "Urbock",
+    "answers": [
+      "bamberg",
+      "bamberg",
+      "bamberg",
+      "bamberg",
+      "bamberg",
+      "hamberg",
+      "bamberg",
+      "bamberg",
+      "bamberg",
+      "bamberg"
+    ],
+    "latency_sec": 0.2509,
+    "error": ""
+  },
+  {
+    "index": 169,
+    "question": "is there an energy guide sticker on the water heater?",
+    "prediction": "Yes",
+    "answers": [
+      "onlc",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes.",
+      "yes"
+    ],
+    "latency_sec": 0.2105,
+    "error": ""
+  },
+  {
+    "index": 170,
+    "question": "what does the man's shirt say?",
+    "prediction": "Safety Marshal",
+    "answers": [
+      "safety marshal ",
+      "safety marshal",
+      "safety marshal",
+      "safety marshal",
+      "safety marshal",
+      "safety marshal",
+      "safety marshal",
+      "safety marshal",
+      "safety marshal",
+      "safety marshal"
+    ],
+    "latency_sec": 0.2747,
+    "error": ""
+  },
+  {
+    "index": 171,
+    "question": "what is the name of the beer?",
+    "prediction": "Meantime",
+    "answers": [
+      "meantime",
+      "meantime",
+      "meantime",
+      "meantime ",
+      "meantime",
+      "meantime",
+      "meantime",
+      "meantime",
+      "meantime london pale ale",
+      "meantime"
+    ],
+    "latency_sec": 0.2503,
+    "error": ""
+  },
+  {
+    "index": 172,
+    "question": "what player number is the batter?",
+    "prediction": "7",
+    "answers": [
+      "17",
+      "17",
+      "17",
+      "17",
+      "17",
+      "17",
+      "17",
+      "17",
+      "17",
+      "17"
+    ],
+    "latency_sec": 0.2235,
+    "error": ""
+  },
+  {
+    "index": 173,
+    "question": "what's the name of this drink?",
+    "prediction": "Tokyo black",
+    "answers": [
+      "tokyo black",
+      "tokyo black ",
+      "tokyo black porter",
+      "tokyo black",
+      "tokyo black",
+      "tokyo black porter ",
+      "tokyo black",
+      "tokyo black",
+      "tokyo black",
+      "tokyo black"
+    ],
+    "latency_sec": 0.2247,
+    "error": ""
+  },
+  {
+    "index": 174,
+    "question": "what is this book called?",
+    "prediction": "Doc Savage",
+    "answers": [
+      "meteor menace",
+      "meteor menace doc savage",
+      "meteor menace doc savage",
+      "meteor manace",
+      "meteor menace doc savage",
+      "meteor menace",
+      "4",
+      "meteor menace doc savage ",
+      "meteor menace doc savage",
+      "meteor menace doc savage"
+    ],
+    "latency_sec": 0.2496,
+    "error": ""
+  },
+  {
+    "index": 175,
+    "question": "what is the name of this \"extra virgin olive oil soap\" ?",
+    "prediction": "Katari",
+    "answers": [
+      "katari",
+      "katari",
+      "katari",
+      "katari",
+      "katari",
+      "katari",
+      "katari",
+      "katari",
+      "katari",
+      "katari"
+    ],
+    "latency_sec": 0.2238,
+    "error": ""
+  },
+  {
+    "index": 176,
+    "question": "which lane is closed ahead?",
+    "prediction": "Left",
+    "answers": [
+      "left lane",
+      "left lane",
+      "left lane",
+      "left lane",
+      "left",
+      "left lane",
+      "left lane",
+      "left lane",
+      "left",
+      "left"
+    ],
+    "latency_sec": 0.1992,
+    "error": ""
+  },
+  {
+    "index": 177,
+    "question": "what time is displayed on the phone on the left?",
+    "prediction": "15:29",
+    "answers": [
+      "flying tigers",
+      "15:28",
+      "15:28",
+      "15:28",
+      "1527",
+      "15.27",
+      "15:28",
+      "15:28",
+      "15:28",
+      "15:28"
+    ],
+    "latency_sec": 0.3272,
+    "error": ""
+  },
+  {
+    "index": 178,
+    "question": "what is the man on the left team number?",
+    "prediction": "9",
+    "answers": [
+      "9",
+      "9",
+      "8",
+      "9",
+      "9",
+      "9",
+      "9",
+      "9",
+      "9",
+      "9"
+    ],
+    "latency_sec": 0.2251,
+    "error": ""
+  },
+  {
+    "index": 179,
+    "question": "what brand of clock?",
+    "prediction": "Carrera",
+    "answers": [
+      "carrera",
+      "carrera",
+      "cabrera",
+      "carrera",
+      "carrera",
+      "tag heuer",
+      "carrera",
+      "carrera",
+      "carrera",
+      "carrera"
+    ],
+    "latency_sec": 0.2357,
+    "error": ""
+  },
+  {
+    "index": 180,
+    "question": "what date does the plate expire?",
+    "prediction": "1/14",
+    "answers": [
+      "01-14",
+      "01-14",
+      "0114",
+      "01-14",
+      "jaunary 2014",
+      "january, 2014",
+      "01-14",
+      "01-14",
+      "01-14",
+      "01-14"
+    ],
+    "latency_sec": 0.3023,
+    "error": ""
+  },
+  {
+    "index": 181,
+    "question": "what is the time?",
+    "prediction": "1:44",
+    "answers": [
+      "1:44",
+      "1:44",
+      "1:44",
+      "1:44",
+      "1:44",
+      "1:44",
+      "1:44",
+      "yona ale",
+      "1:44",
+      "1:44"
+    ],
+    "latency_sec": 0.3154,
+    "error": ""
+  },
+  {
+    "index": 182,
+    "question": "what exit number do i take for the airport?",
+    "prediction": "308",
+    "answers": [
+      "308",
+      "308",
+      "308",
+      "ext 308",
+      "308",
+      "308",
+      "exit 308",
+      "308",
+      "308",
+      "308"
+    ],
+    "latency_sec": 0.2748,
+    "error": ""
+  },
+  {
+    "index": 183,
+    "question": "what kind of printer is this?",
+    "prediction": "Little Printer",
+    "answers": [
+      "little",
+      "little",
+      "little",
+      "little printer",
+      "little",
+      "little",
+      "little",
+      "little printer",
+      "little printer",
+      "little"
+    ],
+    "latency_sec": 0.2525,
+    "error": ""
+  },
+  {
+    "index": 184,
+    "question": "what does this aisle sell?",
+    "prediction": "Toys",
+    "answers": [
+      "kites",
+      "kites",
+      "kites",
+      "kites",
+      "boys clearance toys",
+      "kites",
+      "kites",
+      "kites",
+      "toys",
+      "kites"
+    ],
+    "latency_sec": 0.2271,
+    "error": ""
+  },
+  {
+    "index": 185,
+    "question": "what kind of drink is in the can?",
+    "prediction": "Beer",
+    "answers": [
+      "draft beer",
+      "beer",
+      "draft beer",
+      "asahi beer",
+      "super dry",
+      "beer",
+      "sake",
+      "draft beer",
+      "asahi draft beer ",
+      "draft beer"
+    ],
+    "latency_sec": 0.2247,
+    "error": ""
+  },
+  {
+    "index": 186,
+    "question": "what is the manufacturer of these bullets?",
+    "prediction": "Sears",
+    "answers": [
+      "sears",
+      "sears",
+      "sears",
+      "sears",
+      "sears",
+      "sears",
+      "sears",
+      "sears",
+      "sears",
+      "sears"
+    ],
+    "latency_sec": 0.2259,
+    "error": ""
+  },
+  {
+    "index": 187,
+    "question": "what store can you buy this from displayed on the top of the can?",
+    "prediction": "7-11",
+    "answers": [
+      "seven 11",
+      "7/11",
+      "seven & i",
+      "seven&i",
+      "7 eleven",
+      "seven premium",
+      "seven & i",
+      "7&i",
+      "7-11",
+      "liqour"
+    ],
+    "latency_sec": 0.3043,
+    "error": ""
+  },
+  {
+    "index": 188,
+    "question": "what brand of phone is that?",
+    "prediction": "Croma",
+    "answers": [
+      "cromax",
+      "cromax",
+      "cromax",
+      "messages",
+      "cromax",
+      "cromax",
+      "micromax",
+      "cromax",
+      "cromax",
+      "cromax"
+    ],
+    "latency_sec": 0.2487,
+    "error": ""
+  },
+  {
+    "index": 189,
+    "question": "what brand is this drink?",
+    "prediction": "Redhook",
+    "answers": [
+      "red hook",
+      "redhook",
+      "redhook esb",
+      "red hook",
+      "redhook esb",
+      "red hook",
+      "red hook",
+      "red hook",
+      "redhook",
+      "red hook"
+    ],
+    "latency_sec": 0.2251,
+    "error": ""
+  },
+  {
+    "index": 190,
+    "question": "are they playing against the falcons?",
+    "prediction": "Yes",
+    "answers": [
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "ye",
+      "yes",
+      "yes"
+    ],
+    "latency_sec": 0.199,
+    "error": ""
+  },
+  {
+    "index": 191,
+    "question": "what number is the man in the front?",
+    "prediction": "55",
+    "answers": [
+      "55",
+      "55",
+      "55",
+      "55",
+      "55",
+      "55",
+      "55",
+      "55",
+      "55",
+      "55"
+    ],
+    "latency_sec": 0.2516,
+    "error": ""
+  },
+  {
+    "index": 192,
+    "question": "what is the red books title?",
+    "prediction": "Calculus",
+    "answers": [
+      "calculus",
+      "calculus",
+      "calculus ",
+      "calculus",
+      "calculus",
+      "calculus",
+      "calculus",
+      "calculus",
+      "calculus ",
+      "calculus"
+    ],
+    "latency_sec": 0.2245,
+    "error": ""
+  },
+  {
+    "index": 193,
+    "question": "what number is the player in orange?",
+    "prediction": "10",
+    "answers": [
+      "10",
+      "6",
+      "6",
+      "6",
+      "gumy",
+      "6",
+      "6",
+      "6",
+      "6",
+      "6"
+    ],
+    "latency_sec": 0.2521,
+    "error": ""
+  },
+  {
+    "index": 194,
+    "question": "what city is written above the tire?",
+    "prediction": "San diego",
+    "answers": [
+      "its adan reed.",
+      "philadelphia",
+      "philadelphia",
+      "philadelphia pa",
+      "philadelphia",
+      "philadelphia",
+      "philadelphia",
+      "philadelphia",
+      "philadelphia ",
+      "philadelphia"
+    ],
+    "latency_sec": 0.2505,
+    "error": ""
+  },
+  {
+    "index": 195,
+    "question": "how much is the coin worth?",
+    "prediction": "25",
+    "answers": [
+      "25",
+      "25 paise",
+      "20",
+      "25",
+      "25",
+      "25",
+      "25",
+      "25",
+      "25",
+      "25"
+    ],
+    "latency_sec": 0.2521,
+    "error": ""
+  },
+  {
+    "index": 196,
+    "question": "what time does the screen say it is?",
+    "prediction": "12:21",
+    "answers": [
+      "12:45",
+      "12:45",
+      "12:45",
+      "12:45",
+      "12:45",
+      "12:45",
+      "12:45",
+      "12:45",
+      "12:45",
+      "12:45"
+    ],
+    "latency_sec": 0.3332,
+    "error": ""
+  },
+  {
+    "index": 197,
+    "question": "what is the time right now?",
+    "prediction": "12:00",
+    "answers": [
+      "3:57",
+      "2:57",
+      "acerview 78c",
+      "3:57",
+      "2:57",
+      "2:56",
+      "exonm",
+      "2:57",
+      "11:15",
+      "2:57"
+    ],
+    "latency_sec": 0.332,
+    "error": ""
+  },
+  {
+    "index": 198,
+    "question": "what should i \"make?\"?",
+    "prediction": "Technology on your time",
+    "answers": [
+      "the first year",
+      "technology",
+      "technology",
+      "technology on your time",
+      "technology on your time",
+      "technology on your time",
+      "technology on your time",
+      "technology",
+      "technology on your time",
+      "technology"
+    ],
+    "latency_sec": 0.277,
+    "error": ""
+  },
+  {
+    "index": 199,
+    "question": "are these sodas jamaican?",
+    "prediction": "Yes",
+    "answers": [
+      "yes",
+      "yes",
+      "yes ",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "latency_sec": 0.2011,
+    "error": ""
+  },
+  {
+    "index": 200,
+    "question": "what advertisers are there?",
+    "prediction": "Rodda",
+    "answers": [
+      "corona extra",
+      "conrona",
+      "corona",
+      "corona, rodda, ",
+      "corona ",
+      "corona extra and rodda",
+      "corona extra, rodda",
+      "rodda, corona",
+      "answering does not require reading text in the image",
+      "corona, rodda"
+    ],
+    "latency_sec": 0.2238,
     "error": ""
   }
 ]

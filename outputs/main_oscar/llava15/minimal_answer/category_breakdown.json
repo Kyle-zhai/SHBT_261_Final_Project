@@ -1,83 +1,83 @@
 [
   {
     "category": "brand",
-    "count": 21,
-    "accuracy": 0.7619,
-    "vqa_soft": 0.6984,
-    "substring": 0.8571,
-    "char_sim": 0.8985,
-    "llm_judge": 0.884
+    "count": 113,
+    "accuracy": 0.6549,
+    "vqa_soft": 0.6106,
+    "substring": 0.7257,
+    "char_sim": 0.828,
+    "llm_judge": 0.8147
   },
   {
     "category": "color",
-    "count": 2,
-    "accuracy": 1.0,
-    "vqa_soft": 1.0,
-    "substring": 1.0,
-    "char_sim": 1.0,
-    "llm_judge": 1.0
+    "count": 7,
+    "accuracy": 0.8571,
+    "vqa_soft": 0.8571,
+    "substring": 0.8571,
+    "char_sim": 0.9091,
+    "llm_judge": 0.9482
   },
   {
     "category": "date_year",
-    "count": 6,
+    "count": 22,
     "accuracy": 0.5,
     "vqa_soft": 0.5,
     "substring": 0.5,
-    "char_sim": 0.875,
-    "llm_judge": 0.7481
+    "char_sim": 0.8182,
+    "llm_judge": 0.8031
   },
   {
     "category": "number",
-    "count": 27,
-    "accuracy": 0.4444,
-    "vqa_soft": 0.3951,
-    "substring": 0.5926,
-    "char_sim": 0.6176,
-    "llm_judge": 0.7778
+    "count": 113,
+    "accuracy": 0.5664,
+    "vqa_soft": 0.528,
+    "substring": 0.6637,
+    "char_sim": 0.7026,
+    "llm_judge": 0.8283
   },
   {
     "category": "other",
-    "count": 86,
-    "accuracy": 0.4651,
-    "vqa_soft": 0.4186,
-    "substring": 0.6628,
-    "char_sim": 0.6836,
-    "llm_judge": 0.7306
+    "count": 471,
+    "accuracy": 0.5244,
+    "vqa_soft": 0.4876,
+    "substring": 0.673,
+    "char_sim": 0.7424,
+    "llm_judge": 0.7779
   },
   {
     "category": "price",
-    "count": 4,
-    "accuracy": 0.25,
-    "vqa_soft": 0.25,
-    "substring": 0.25,
-    "char_sim": 0.6706,
-    "llm_judge": 0.772
+    "count": 17,
+    "accuracy": 0.4706,
+    "vqa_soft": 0.4314,
+    "substring": 0.5882,
+    "char_sim": 0.7852,
+    "llm_judge": 0.7957
   },
   {
     "category": "text_read",
-    "count": 38,
-    "accuracy": 0.3421,
-    "vqa_soft": 0.2895,
-    "substring": 0.5789,
-    "char_sim": 0.6598,
-    "llm_judge": 0.6861
+    "count": 173,
+    "accuracy": 0.4566,
+    "vqa_soft": 0.4277,
+    "substring": 0.6301,
+    "char_sim": 0.7366,
+    "llm_judge": 0.7445
   },
   {
     "category": "time",
-    "count": 8,
-    "accuracy": 0.125,
-    "vqa_soft": 0.125,
-    "substring": 0.25,
-    "char_sim": 0.6314,
-    "llm_judge": 0.6937
+    "count": 27,
+    "accuracy": 0.1481,
+    "vqa_soft": 0.1235,
+    "substring": 0.2222,
+    "char_sim": 0.618,
+    "llm_judge": 0.6851
   },
   {
     "category": "yes_no",
-    "count": 8,
-    "accuracy": 1.0,
-    "vqa_soft": 1.0,
-    "substring": 1.0,
-    "char_sim": 1.0,
-    "llm_judge": 1.0
+    "count": 57,
+    "accuracy": 0.9298,
+    "vqa_soft": 0.8713,
+    "substring": 0.9298,
+    "char_sim": 0.9398,
+    "llm_judge": 0.9813
   }
 ]
